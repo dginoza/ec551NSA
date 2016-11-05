@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nfifo_tb_isim_beh.exe" -prj "/ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nfifo_tb_beh.prj" "work.nfifo_tb" "work.glbl" 

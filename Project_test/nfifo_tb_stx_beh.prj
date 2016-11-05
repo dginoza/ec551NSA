@@ -1,0 +1,4 @@
+verilog isim_temp "Dff.v"
+verilog isim_temp "nFIFO.v"
+verilog isim_temp "nfifo_tb.v"
+verilog isim_temp "/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"
