@@ -21,7 +21,7 @@
 module nFIFO(datain, reset, clk, dataout
     );
 	 
-	 parameter fifosize = 10; //
+	 parameter fifosize = 637; //
 	 
 	 input [11:0] datain;
 	 input clk, reset;

@@ -1,24 +1,23 @@
-Running: /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nfifo_tb_isim_beh.exe -prj /ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nfifo_tb_beh.prj work.nfifo_tb work.glbl 
-ISim P.28xd (signature 0x54af6ca1)
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/My Documents/EC551/Project_test/test_window_isim_beh.exe" -prj "X:/My Documents/EC551/Project_test/test_window_beh.prj" "test_window" "work.glbl" 
+ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "/ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/Dff.v" into library work
-Analyzing Verilog file "/ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nFIFO.v" into library work
-Analyzing Verilog file "/ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nfifo_tb.v" into library work
-Analyzing Verilog file "/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "X:/My Documents/EC551/Project_test/Dff.v" into library work
+Analyzing Verilog file "X:/My Documents/EC551/Project_test/nFIFO.v" into library work
+Analyzing Verilog file "X:/My Documents/EC551/Project_test/window.v" into library work
+Analyzing Verilog file "X:/My Documents/EC551/Project_test/test_window.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 93880 KB
-Fuse CPU Usage: 970 ms
 Compiling module Dff
-Compiling module nFIFO_default
-Compiling module nfifo_tb
+Compiling module nFIFO(fifosize=10)
+Compiling module window
+Compiling module test_window
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 4 Verilog Units
-Built simulation executable /ad/eng/users/d/g/dginoza/My Documents/EC551/Project_test/nfifo_tb_isim_beh.exe
-Fuse Memory Usage: 652024 KB
-Fuse CPU Usage: 990 ms
-GCC CPU Usage: 270 ms
+Compiled 5 Verilog Units
+Built simulation executable X:/My Documents/EC551/Project_test/test_window_isim_beh.exe
+Fuse Memory Usage: 28992 KB
+Fuse CPU Usage: 483 ms
