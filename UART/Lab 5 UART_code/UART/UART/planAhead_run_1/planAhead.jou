@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Nov 03 15:04:15 2015
+# Process ID: 111128
+# Log file: X:/Desktop/20151103_UART/UART/planAhead_run_1/planAhead.log
+# Journal file: X:/Desktop/20151103_UART/UART/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source X:/Desktop/20151103_UART/UART/pa.fromHdl.tcl
+set_property package_pin "" [get_ports [list  {Rx_data[7]}]]
+startgroup
+set_property package_pin T11 [get_ports collect_finish_display]
+endgroup
+set_property is_loc_fixed false [get_ports [list  collect_finish_display]]
+set_property is_loc_fixed true [get_ports [list  collect_finish_display]]
+set_property iostandard LVCMOS33 [get_ports [list collect_finish_display]]
+save_design

@@ -1,0 +1,129 @@
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+xst -intstyle ise -ifn "X:/Desktop/20151103_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151103_UART/UART/top_direct_send.syr" 
+xst -intstyle ise -ifn "X:/Desktop/20151104_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151104_UART/UART/top_direct_send.syr" 
+xst -intstyle ise -ifn "X:/Desktop/20151104_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151104_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/20151104_UART/UART/top_direct_send.xst" -ofn "X:/Desktop/20151104_UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 top_direct_send.ngc top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+xst -intstyle ise -ifn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 
+xst -intstyle ise -ifn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.xst" -ofn "X:/Desktop/Lab3/UART/Lab 5 UART_code/UART/UART/top_direct_send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_direct_send.ucf -p xc6slx16-csg324-3 "top_direct_send.ngc" top_direct_send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_direct_send_map.ncd top_direct_send.ngd top_direct_send.pcf 
+par -w -intstyle ise -ol high -mt off top_direct_send_map.ncd top_direct_send.ncd top_direct_send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_direct_send.twx top_direct_send.ncd -o top_direct_send.twr top_direct_send.pcf -ucf top_direct_send.ucf 
+bitgen -intstyle ise -f top_direct_send.ut top_direct_send.ncd 

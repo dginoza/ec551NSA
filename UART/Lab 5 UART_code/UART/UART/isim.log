@@ -1,0 +1,67 @@
+ISim log file
+Running: X:\Desktop\UART\Lab 5 UART_code\UART\UART\tb_sys_array_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb X:/Desktop/UART/Lab 5 UART_code/UART/UART/tb_sys_array_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: For instance SA/dff1/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 21.  For instance SA/dff1/, width 12 of formal port d is not equal to width 8 of actual signal pixIn.
+WARNING: For instance SA/dff2/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff2/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/dff3/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff3/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/fifo1/, width 12 of formal port datain is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 36.  For instance SA/fifo1/, width 12 of formal port dataout is not equal to width 8 of actual signal queue1out.
+WARNING: For instance SA/dff4/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 36.  For instance SA/dff4/, width 12 of formal port d is not equal to width 8 of actual signal queue1out.
+WARNING: For instance SA/dff5/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff5/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/dff6/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff6/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/fifo2/, width 12 of formal port datain is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 37.  For instance SA/fifo2/, width 12 of formal port dataout is not equal to width 8 of actual signal queue2out.
+WARNING: For instance SA/dff7/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 37.  For instance SA/dff7/, width 12 of formal port d is not equal to width 8 of actual signal queue2out.
+WARNING: For instance SA/dff8/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff8/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/dff9/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff9/, width 12 of formal port d is not equal to width 8 of actual.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 10 us : File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/tb_sys_array.v" Line 55
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: For instance SA/dff1/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 21.  For instance SA/dff1/, width 12 of formal port d is not equal to width 8 of actual signal pixIn.
+WARNING: For instance SA/dff2/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff2/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/dff3/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff3/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/fifo1/, width 12 of formal port datain is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 36.  For instance SA/fifo1/, width 12 of formal port dataout is not equal to width 8 of actual signal queue1out.
+WARNING: For instance SA/dff4/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 36.  For instance SA/dff4/, width 12 of formal port d is not equal to width 8 of actual signal queue1out.
+WARNING: For instance SA/dff5/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff5/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/dff6/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff6/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/fifo2/, width 12 of formal port datain is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 37.  For instance SA/fifo2/, width 12 of formal port dataout is not equal to width 8 of actual signal queue2out.
+WARNING: For instance SA/dff7/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/sys_array.v" Line 37.  For instance SA/dff7/, width 12 of formal port d is not equal to width 8 of actual signal queue2out.
+WARNING: For instance SA/dff8/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff8/, width 12 of formal port d is not equal to width 8 of actual.
+WARNING: For instance SA/dff9/, width 12 of formal port q is not equal to width 8 of actual.
+WARNING: For instance SA/dff9/, width 12 of formal port d is not equal to width 8 of actual.
+# run 10000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 10 us : File "//ad/eng/users/p/k/pkmurphy/Desktop/convolutionVerilog/tb_sys_array.v" Line 55

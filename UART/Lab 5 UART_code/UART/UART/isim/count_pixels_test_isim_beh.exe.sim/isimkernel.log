@@ -1,0 +1,29 @@
+Command line:
+   count_pixels_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58412
+
+Tue Nov 22 20:37:32 2016
+
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 506.114 Meg
+
+ Total Signals          : 17
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 147
+Total Line Count : 40
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 506.114 Meg
+
+Tue Nov 22 20:37:57 2016
+

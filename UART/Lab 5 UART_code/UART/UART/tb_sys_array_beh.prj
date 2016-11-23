@@ -1,0 +1,5 @@
+verilog work "../../../../convolutionVerilog/Dff.v"
+verilog work "../../../../convolutionVerilog/nFIFO.v"
+verilog work "../../../../convolutionVerilog/sys_array.v"
+verilog work "../../../../convolutionVerilog/tb_sys_array.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,34 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/Desktop/UART/Lab 5 UART_code/UART/UART/tb_sys_array_isim_beh.exe" -prj "X:/Desktop/UART/Lab 5 UART_code/UART/UART/tb_sys_array_beh.prj" "tb_sys_array" "work.glbl" 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/Dff.v" into library work
+Analyzing Verilog file "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/nFIFO.v" into library work
+Analyzing Verilog file "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" into library work
+Analyzing Verilog file "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/tb_sys_array.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 51: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 52: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 54: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 55: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 56: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 58: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 59: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 60: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 50: Size mismatch in connection of port <q>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 53: Size mismatch in connection of port <datain>. Formal port size is 12-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "X:/Desktop/UART/Lab 5 UART_code/UART/UART/../../../../convolutionVerilog/sys_array.v" Line 57: Size mismatch in connection of port <datain>. Formal port size is 12-bit while actual signal size is 8-bit.
+Completed static elaboration
+Compiling module Dff
+Compiling module nFIFO(fifosize=96)
+Compiling module sys_array
+Compiling module tb_sys_array
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable X:/Desktop/UART/Lab 5 UART_code/UART/UART/tb_sys_array_isim_beh.exe
+Fuse Memory Usage: 28884 KB
+Fuse CPU Usage: 436 ms

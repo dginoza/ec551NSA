@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Wed Nov 04 13:32:22 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "rst" LOCATE = SITE "T10" LEVEL 1;
+COMP "RsRx" LOCATE = SITE "N17" LEVEL 1;
+COMP "RsTx" LOCATE = SITE "N18" LEVEL 1;
+COMP "collect_finish_display" LOCATE = SITE "T11" LEVEL 1;
+COMP "Rx_data<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Rx_data<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Rx_data<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "Rx_data<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "Rx_data<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Rx_data<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Rx_data<6>" LOCATE = SITE "R11" LEVEL 1;
+SCHEMATIC END;
+

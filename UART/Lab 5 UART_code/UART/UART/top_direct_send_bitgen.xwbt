@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Desktop\Lab3\UART\Lab 5 UART_code\UART\UART\top_direct_send.ncd
+OUTFILE=X:\Desktop\Lab3\UART\Lab 5 UART_code\UART\UART\top_direct_send.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=X:\Desktop\Lab3\UART\Lab 5 UART_code\UART\UART
+LICENSE=WebPack
+USER_INFO=211078688_0_0_150

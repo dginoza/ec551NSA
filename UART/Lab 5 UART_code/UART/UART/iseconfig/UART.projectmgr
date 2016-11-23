@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="UART" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tb_sys_array X:|Desktop|convolutionVerilog|tb_sys_array.v</ClosedNode>
+         <ClosedNode>/tb_sys_array X:|Desktop|convolutionVerilog|tb_sys_array.v/SA - sys_array</ClosedNode>
+         <ClosedNode>/test_window X:|Desktop|convolutionVerilog|test_window.v/uut - window</ClosedNode>
+         <ClosedNode>/top X:|Desktop|UART|Lab 5 UART_code|UART|UART|top.v</ClosedNode>
+         <ClosedNode>/top_direct_send X:|Desktop|20151103_UART|UART|top_easy.v</ClosedNode>
+         <ClosedNode>/top_direct_send X:|Desktop|UART|Lab 5 UART_code|UART|UART|top_direct_send.v/sys_array - sys_array</ClosedNode>
+         <ClosedNode>/top_easy X:|Desktop|20151103_UART|UART|top_easy.v</ClosedNode>
+         <ClosedNode>/window_with_fifo X:|Desktop|convolutionVerilog|window_with_fifo.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top_direct_send (X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000150000000020000000000000000000000000200000064ffffffff000000810000000300000002000001500000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>top_direct_send (X:/Desktop/UART/Lab 5 UART_code/UART/UART/top_direct_send.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ab00000001000000000000002400000001000000000000006600000001000000000000025d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>clk_divide.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Target PROM/ACE File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Target PROM/ACE File</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Data_collect_tb X:|Desktop|20151103_UART|UART|Data_collect_tb.v</ClosedNode>
+         <ClosedNode>/Data_collect_tb X:|Desktop|UART|Lab 5 UART_code|UART|UART|Data_collect_tb.v</ClosedNode>
+         <ClosedNode>/MEM_tb X:|Desktop|20151103_UART|UART|MEM_tb.v</ClosedNode>
+         <ClosedNode>/MEM_tb X:|Desktop|UART|Lab 5 UART_code|UART|UART|MEM_tb.v</ClosedNode>
+         <ClosedNode>/clk_divide_tb X:|Desktop|20151103_UART|UART|clk_divide_tb.v</ClosedNode>
+         <ClosedNode>/clk_divide_tb X:|Desktop|UART|Lab 5 UART_code|UART|UART|clk_divide_tb.v</ClosedNode>
+         <ClosedNode>/count_pixels_test X:|Desktop|UART|Lab 5 UART_code|UART|UART|count_pixels_test.v</ClosedNode>
+         <ClosedNode>/nfifo_tb X:|Desktop|convolutionVerilog|nfifo_tb.v</ClosedNode>
+         <ClosedNode>/receiver_sampler_tb X:|Desktop|20151103_UART|UART|receiver_sampler_tb.v</ClosedNode>
+         <ClosedNode>/receiver_sampler_tb X:|Desktop|UART|Lab 5 UART_code|UART|UART|receiver_sampler_tb.v</ClosedNode>
+         <ClosedNode>/tb_sys_array X:|Desktop|convolutionVerilog|tb_sys_array.v</ClosedNode>
+         <ClosedNode>/test_window X:|Desktop|convolutionVerilog|test_window.v</ClosedNode>
+         <ClosedNode>/top_direct_send X:|Desktop|20151103_UART|UART|top_direct_send.v</ClosedNode>
+         <ClosedNode>/top_direct_send X:|Desktop|UART|Lab 5 UART_code|UART|UART|top_direct_send.v/sys_array - sys_array/fifo1 - nFIFO</ClosedNode>
+         <ClosedNode>/top_direct_send X:|Desktop|UART|Lab 5 UART_code|UART|UART|top_direct_send.v/sys_array - sys_array/fifo2 - nFIFO</ClosedNode>
+         <ClosedNode>/top_tb X:|Desktop|20151103_UART|UART|top_tb.v</ClosedNode>
+         <ClosedNode>/top_tb X:|Desktop|UART|Lab 5 UART_code|UART|UART|top_tb.v</ClosedNode>
+         <ClosedNode>/window_with_fifo X:|Desktop|convolutionVerilog|window_with_fifo.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_sys_array (X:/Desktop/convolutionVerilog/tb_sys_array.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000150000000020000000000000000000000000200000064ffffffff000000810000000300000002000001500000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_sys_array (X:/Desktop/convolutionVerilog/tb_sys_array.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>
