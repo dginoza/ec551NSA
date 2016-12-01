@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\work\top_level.ncd
+OUTFILE=D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\work\top_level.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\work
+LICENSE=WebPack
+USER_INFO=211260181_0_0_838

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\hamster\Projects\FPGA\ov7670_fr\impact.xsl
+OUTFILE=C:\Users\hamster\Projects\FPGA\ov7670_fr\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\hamster\Projects\FPGA\ov7670_fr
+LICENSE=iMPACT
+USER_INFO=iMPACT
