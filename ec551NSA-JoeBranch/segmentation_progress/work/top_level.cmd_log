@@ -1,0 +1,606 @@
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg400-3 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/clean/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.xst" -ofn "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc "D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA/ov7670_fr/zeboard.ucf" -p xc7z020-clg484-1 "top_level.ngc" top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 
+xst -intstyle ise -ifn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.xst" -ofn "C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work/top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -uc C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/zeboard.ucf -p xc7z020-clg484-1 top_level.ngc top_level.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr off -lc off -power off -o top_level_map.ncd top_level.ngd top_level.pcf 
+par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd top_level.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf 
+bitgen -intstyle ise -f top_level.ut top_level.ncd 

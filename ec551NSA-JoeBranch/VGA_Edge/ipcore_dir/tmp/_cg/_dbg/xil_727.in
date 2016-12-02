@@ -1,0 +1,36 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily zynq
+SET_PREFERENCE device xc7z020
+SET_PREFERENCE speedgrade -1
+SET_PREFERENCE package clg484
+SET_PREFERENCE verilogsim false
+SET_PREFERENCE vhdlsim true
+SET_PREFERENCE simulationfiles Structural
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/ipcore_dir/
+SET_PREFERENCE workingdirectory D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB/ov7670_fr/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry VHDL
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_CORE_NAME RGB to YCrCb Color-Space Converter
+SET_CORE_VERSION 4.0
+SET_CORE_VLNV xilinx.com:ip:v_rgb2ycrcb:4.0
+SET_CORE_CLASS com.xilinx.ip.v_rgb2ycrcb_v4_0.v_rgb2ycrcb_v4_0
+SET_CORE_PATH D:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/v_rgb2ycrcb_v4_0
+SET_CORE_GUIPATH D:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/v_rgb2ycrcb_v4_0/gui/v_rgb2ycrcb_v4_0.tcl
+SET_CORE_DATASHEET D:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\v_rgb2ycrcb_v4_0\doc\pg013_v_rgb2ycrcb.pdf
+ADD_CORE_DOCUMENT <D:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\v_rgb2ycrcb_v4_0\doc\pg013_v_rgb2ycrcb.pdf><pg013_v_rgb2ycrcb.pdf>
+ADD_CORE_DOCUMENT <D:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\v_rgb2ycrcb_v4_0\doc\v_rgb2ycrcb_v4_0_vinfo.html><v_rgb2ycrcb_v4_0_vinfo.html>
+ADD_CORE_DOCUMENT <D:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\v_rgb2ycrcb_v4_0\doc\pg013_v_rgb2ycrcb.pdf><pg013_v_rgb2ycrcb.pdf>
+ADD_CORE_DOCUMENT <D:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\v_rgb2ycrcb_v4_0\doc\v_rgb2ycrcb_v4_0_vinfo.html><v_rgb2ycrcb_v4_0_vinfo.html>
