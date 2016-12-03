@@ -103,7 +103,7 @@ begin
 	begin
 		if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(sumRowin > 11'd675) begin
+			if(sumRowin > 11'd2) begin
 				red = 4'b0000;
 				green = 4'b1111;
 				blue = 4'b0000;

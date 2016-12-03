@@ -10,23 +10,23 @@ Target Device  : xc7z020
 Target Package : clg484
 Target Speed   : -1
 Mapper Version : zynq -- $Revision: 1.55 $
-Mapped Date    : Fri Dec 02 17:16:18 2016
+Mapped Date    : Sat Dec 03 14:52:52 2016
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    5
+Number of warnings:    4
 Slice Logic Utilization:
-  Number of Slice Registers:                   895 out of 106,400    1%
+  Number of Slice Registers:                   884 out of 106,400    1%
     Number used as Flip Flops:                 880
-    Number used as Latches:                     15
+    Number used as Latches:                      4
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                      1,049 out of  53,200    1%
-    Number used as logic:                      721 out of  53,200    1%
-      Number using O6 output only:             473
+  Number of Slice LUTs:                      1,041 out of  53,200    1%
+    Number used as logic:                      711 out of  53,200    1%
+      Number using O6 output only:             475
       Number using O5 output only:              74
-      Number using O5 and O6:                  174
+      Number using O5 and O6:                  162
       Number used as ROM:                        0
     Number used as Memory:                      83 out of  17,400    1%
       Number used as Dual Port RAM:              0
@@ -35,20 +35,20 @@ Slice Logic Utilization:
         Number using O6 output only:            83
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:    245
-      Number with same-slice register load:    240
+    Number used exclusively as route-thrus:    247
+      Number with same-slice register load:    242
       Number with same-slice carry load:         5
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   468 out of  13,300    3%
-  Number of LUT Flip Flop pairs used:        1,241
-    Number with an unused Flip Flop:           589 out of   1,241   47%
-    Number with an unused LUT:                 192 out of   1,241   15%
-    Number of fully used LUT-FF pairs:         460 out of   1,241   37%
-    Number of unique control sets:              18
+  Number of occupied Slices:                   465 out of  13,300    3%
+  Number of LUT Flip Flop pairs used:        1,222
+    Number with an unused Flip Flop:           582 out of   1,222   47%
+    Number with an unused LUT:                 181 out of   1,222   14%
+    Number of fully used LUT-FF pairs:         459 out of   1,222   37%
+    Number of unique control sets:              17
     Number of slice register sites lost
-      to control set restrictions:              86 out of 106,400    1%
+      to control set restrictions:              81 out of 106,400    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -101,11 +101,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                4.56
+Average Fanout of Non-Clock Nets:                4.58
 
-Peak Memory Usage:  871 MB
-Total REAL time to MAP completion:  1 mins 4 secs 
-Total CPU time to MAP completion:   1 mins 4 secs 
+Peak Memory Usage:  869 MB
+Total REAL time to MAP completion:  1 mins 6 secs 
+Total CPU time to MAP completion:   1 mins 6 secs 
 
 Table of Contents
 -----------------
@@ -146,15 +146,11 @@ WARNING:PhysDesignRules:2500 - This design does not have a PS7 block.
    Instantiate the PS7 block in order to ensure proper fabric tie-offs and
    correct operation of the processing_system7.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o is sourced by a combinatorial pin.
-   This is not good design practice. Use the CE pin to control the loading of
-   data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o is sourced by a combinatorial pin.
+   Inst_segment/GND_48_o_GND_48_o_OR_24_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
-   ProtoComp96.PULL is set but the tri state is not configured. 
+   ProtoComp92.PULL is set but the tri state is not configured. 
 
 Section 3 - Informational
 -------------------------
@@ -608,8 +604,8 @@ LUT1 		Inst_debounce/Mcount_c_cy<20>_rt
 LUT1 		Inst_debounce/Mcount_c_cy<21>_rt
 LUT1 		Inst_debounce/Mcount_c_cy<22>_rt
 LUT1
-		Inst_ov7670_controller/Inst_i3c2/Msub_GND_76_o_GND_76_o_sub_67_OUT<15:0>_cy<0>
-_rt
+		Inst_ov7670_controller/Inst_i3c2/Msub_GND_182_o_GND_182_o_sub_67_OUT<15:0>_cy<
+0>_rt
 LUT1 		Inst_ov7670_capture/Mcount_address_cy<17>_rt
 LUT1 		Inst_ov7670_capture/Mcount_address_cy<16>_rt
 LUT1 		Inst_ov7670_capture/Mcount_address_cy<15>_rt
@@ -1107,53 +1103,51 @@ SS_MOD_PERIOD = 10000
 
 Section 12 - Control Set Information
 ------------------------------------
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Clock Signal                                | Reset Signal                                                 | Set Signal | Enable Signal                              | Slice Load Count | Bel Load Count |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| clk_camera                                  |                                                              |            |                                            | 23               | 56             |
-| clk_camera                                  | Inst_ov7670_controller/Inst_i3c2/state[3]_GND_77_o_Mux_136_o |            |                                            | 1                | 1              |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| clk_vga                                     |                                                              |            |                                            | 119              | 683            |
-| clk_vga                                     |                                                              |            | GLOBAL_LOGIC1                              | 20               | 80             |
-| clk_vga                                     | Inst_Address_Generator/vsync_inv                             |            | Inst_Address_Generator/_n0039_inv          | 5                | 19             |
-| clk_vga                                     | Inst_VGA/GND_47_o_GND_47_o_equal_1_o                         |            |                                            | 3                | 10             |
-| clk_vga                                     | Inst_VGA/_n0083                                              |            | Inst_VGA/GND_47_o_GND_47_o_equal_1_o       | 3                | 10             |
-| clk_vga                                     | Inst_debounce/i_inv                                          |            |                                            | 7                | 25             |
-| clk_vga                                     | Inst_debounce/o                                              |            |                                            | 3                | 10             |
-| clk_vga                                     | Inst_debounce/o                                              |            | Inst_VGA2/hc[9]_PWR_20_o_LessThan_2_o_inv  | 3                | 10             |
-| clk_vga                                     | Inst_window/_n0194                                           |            |                                            | 2                | 4              |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ov7670_pclk_BUFGP                           |                                                              |            |                                            | 1                | 1              |
-| ov7670_pclk_BUFGP                           |                                                              |            | Inst_ov7670_capture/latched_href           | 4                | 15             |
-| ov7670_pclk_BUFGP                           | Inst_ov7670_capture/latched_vsync                            |            |                                            | 3                | 10             |
-| ov7670_pclk_BUFGP                           | Inst_ov7670_capture/latched_vsync                            |            | Inst_ov7670_capture/we_reg                 | 5                | 19             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ~Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o |                                                              |            | Inst_segment/vcnt[9]_GND_48_o_LessThan_5_o | 1                | 4              |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ~Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o     |                                                              |            |                                            | 3                | 11             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ~ov7670_pclk_BUFGP                          |                                                              |            |                                            | 6                | 10             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Clock Signal                            | Reset Signal                                                  | Set Signal | Enable Signal                             | Slice Load Count | Bel Load Count |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk_camera                              |                                                               |            |                                           | 26               | 56             |
+| clk_camera                              | Inst_ov7670_controller/Inst_i3c2/state[3]_GND_183_o_Mux_136_o |            |                                           | 1                | 1              |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk_vga                                 |                                                               |            |                                           | 120              | 683            |
+| clk_vga                                 |                                                               |            | GLOBAL_LOGIC1                             | 20               | 80             |
+| clk_vga                                 | Inst_Address_Generator/vsync_inv                              |            | Inst_Address_Generator/_n0039_inv         | 5                | 19             |
+| clk_vga                                 | Inst_VGA/GND_47_o_GND_47_o_equal_1_o                          |            |                                           | 3                | 10             |
+| clk_vga                                 | Inst_VGA/_n0083                                               |            | Inst_VGA/GND_47_o_GND_47_o_equal_1_o      | 3                | 10             |
+| clk_vga                                 | Inst_debounce/i_inv                                           |            |                                           | 7                | 25             |
+| clk_vga                                 | Inst_debounce/o                                               |            |                                           | 3                | 10             |
+| clk_vga                                 | Inst_debounce/o                                               |            | Inst_VGA2/hc[9]_PWR_23_o_LessThan_2_o_inv | 3                | 10             |
+| clk_vga                                 | Inst_window/_n0194                                            |            |                                           | 2                | 4              |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ov7670_pclk_BUFGP                       |                                                               |            |                                           | 1                | 1              |
+| ov7670_pclk_BUFGP                       |                                                               |            | Inst_ov7670_capture/latched_href          | 4                | 15             |
+| ov7670_pclk_BUFGP                       | Inst_ov7670_capture/latched_vsync                             |            |                                           | 3                | 10             |
+| ov7670_pclk_BUFGP                       | Inst_ov7670_capture/latched_vsync                             |            | Inst_ov7670_capture/we_reg                | 5                | 19             |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ~Inst_segment/GND_48_o_GND_48_o_OR_24_o |                                                               |            |                                           | 1                | 4              |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ~ov7670_pclk_BUFGP                      |                                                               |            |                                           | 6                | 10             |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 13 - Utilization by Hierarchy
 -------------------------------------
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Module                             | Partition | Slices*       | Slice Reg     | LUTs          | LUTRAM        | BRAM/FIFO | DSP48E1 | BUFG  | BUFIO | BUFR  | MMCME2_AD | Full Hierarchical Name                                                                                                            |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| top_level/                         |           | 0/460         | 0/895         | 0/1019        | 0/83          | 1/105     | 0/9     | 1/4   | 0/0   | 0/0   | 0/1       | top_level                                                                                                                         |
-| +Inst_Address_Generator            |           | 10/10         | 19/19         | 26/26         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_Address_Generator                                                                                                  |
-| +Inst_VGA                          |           | 18/18         | 43/43         | 36/36         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_VGA                                                                                                                |
-| +Inst_VGA2                         |           | 15/15         | 20/20         | 46/46         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_VGA2                                                                                                               |
+| top_level/                         |           | 0/455         | 0/884         | 0/1011        | 0/83          | 1/105     | 0/9     | 1/4   | 0/0   | 0/0   | 0/1       | top_level                                                                                                                         |
+| +Inst_Address_Generator            |           | 8/8           | 19/19         | 26/26         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_Address_Generator                                                                                                  |
+| +Inst_VGA                          |           | 16/16         | 43/43         | 38/38         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_VGA                                                                                                                |
+| +Inst_VGA2                         |           | 15/15         | 20/20         | 43/43         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_VGA2                                                                                                               |
 | +Inst_debounce                     |           | 10/10         | 25/25         | 30/30         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_debounce                                                                                                           |
-| +Inst_frame_buffer                 |           | 0/202         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer                                                                                                       |
-| ++fb                               |           | 0/202         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb                                                                                                    |
-| +++U0                              |           | 0/202         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0                                                                                                 |
-| ++++xst_blk_mem_generator          |           | 0/202         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator                                                                           |
-| +++++gnativebmg.native_blk_mem_gen |           | 0/202         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen                                             |
-| ++++++valid.cstr                   |           | 3/202         | 0/7           | 4/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr                                  |
-| +++++++bindec_a.bindec_inst_a      |           | 38/38         | 0/0           | 44/44         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a           |
-| +++++++bindec_b.bindec_inst_b      |           | 34/34         | 0/0           | 44/44         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b           |
-| +++++++has_mux_b.B                 |           | 127/127       | 7/7           | 214/214       | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B                      |
+| +Inst_frame_buffer                 |           | 0/198         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer                                                                                                       |
+| ++fb                               |           | 0/198         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb                                                                                                    |
+| +++U0                              |           | 0/198         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0                                                                                                 |
+| ++++xst_blk_mem_generator          |           | 0/198         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator                                                                           |
+| +++++gnativebmg.native_blk_mem_gen |           | 0/198         | 0/7           | 0/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen                                             |
+| ++++++valid.cstr                   |           | 2/198         | 0/7           | 4/306         | 0/0           | 0/104     | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr                                  |
+| +++++++bindec_a.bindec_inst_a      |           | 40/40         | 0/0           | 44/44         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a           |
+| +++++++bindec_b.bindec_inst_b      |           | 28/28         | 0/0           | 44/44         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b           |
+| +++++++has_mux_b.B                 |           | 128/128       | 7/7           | 214/214       | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B                      |
 | +++++++ramloop[0].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r                 |
 | ++++++++v6_noinit.ram              |           | 0/0           | 0/0           | 0/0           | 0/0           | 2/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram   |
 | +++++++ramloop[10].ram.r           |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r                |
@@ -1338,19 +1332,19 @@ Section 13 - Utilization by Hierarchy
 | ++++++++v6_noinit.ram              |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[91].ram.r/v6_noinit.ram  |
 | +++++++ramloop[9].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r                 |
 | ++++++++v6_noinit.ram              |           | 0/0           | 0/0           | 0/0           | 0/0           | 2/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram   |
-| +Inst_mux                          |           | 3/3           | 0/0           | 10/10         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_mux                                                                                                                |
-| +Inst_ov7670_capture               |           | 18/18         | 52/52         | 31/31         | 3/3           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_ov7670_capture                                                                                                     |
-| +Inst_ov7670_controller            |           | 1/143         | 1/694         | 1/392         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_ov7670_controller                                                                                                  |
-| ++Inst_i3c2                        |           | 142/142       | 693/693       | 391/391       | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_ov7670_controller/Inst_i3c2                                                                                        |
-| +Inst_segment                      |           | 7/7           | 15/15         | 39/39         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_segment                                                                                                            |
-| +Inst_window                       |           | 8/34          | 4/20          | 19/103        | 0/80          | 0/0       | 9/9     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window                                                                                                             |
-| ++fifo1                            |           | 0/13          | 0/8           | 0/42          | 0/40          | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1                                                                                                       |
+| +Inst_mux                          |           | 4/4           | 0/0           | 12/12         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_mux                                                                                                                |
+| +Inst_ov7670_capture               |           | 17/17         | 52/52         | 31/31         | 3/3           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_ov7670_capture                                                                                                     |
+| +Inst_ov7670_controller            |           | 1/151         | 1/694         | 1/392         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_ov7670_controller                                                                                                  |
+| ++Inst_i3c2                        |           | 150/150       | 693/693       | 391/391       | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_ov7670_controller/Inst_i3c2                                                                                        |
+| +Inst_segment                      |           | 6/6           | 4/4           | 30/30         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_segment                                                                                                            |
+| +Inst_window                       |           | 8/30          | 4/20          | 19/103        | 0/80          | 0/0       | 9/9     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window                                                                                                             |
+| ++fifo1                            |           | 0/11          | 0/8           | 0/42          | 0/40          | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1                                                                                                       |
 | +++DffOutputReg                    |           | 1/1           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1/DffOutputReg                                                                                          |
-| +++dffgenerate[634].DffInternal    |           | 11/11         | 4/4           | 42/42         | 40/40         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1/dffgenerate[634].DffInternal                                                                          |
-| +++dffgenerate[635].DffInternal    |           | 1/1           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1/dffgenerate[635].DffInternal                                                                          |
-| ++fifo2                            |           | 0/13          | 0/8           | 0/42          | 0/40          | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2                                                                                                       |
-| +++DffOutputReg                    |           | 1/1           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2/DffOutputReg                                                                                          |
-| +++dffgenerate[634].DffInternal    |           | 11/11         | 4/4           | 42/42         | 40/40         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2/dffgenerate[634].DffInternal                                                                          |
+| +++dffgenerate[634].DffInternal    |           | 10/10         | 4/4           | 42/42         | 40/40         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1/dffgenerate[634].DffInternal                                                                          |
+| +++dffgenerate[635].DffInternal    |           | 0/0           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo1/dffgenerate[635].DffInternal                                                                          |
+| ++fifo2                            |           | 0/11          | 0/8           | 0/42          | 0/40          | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2                                                                                                       |
+| +++DffOutputReg                    |           | 0/0           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2/DffOutputReg                                                                                          |
+| +++dffgenerate[634].DffInternal    |           | 10/10         | 4/4           | 42/42         | 40/40         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2/dffgenerate[634].DffInternal                                                                          |
 | +++dffgenerate[635].DffInternal    |           | 1/1           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0       | top_level/Inst_window/fifo2/dffgenerate[635].DffInternal                                                                          |
 | +inst_vga_pll                      |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/0       | 0/0     | 3/3   | 0/0   | 0/0   | 1/1       | top_level/inst_vga_pll                                                                                                            |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

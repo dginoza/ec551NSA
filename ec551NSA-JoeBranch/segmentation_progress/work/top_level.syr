@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.05 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: top_level.prj
 
@@ -118,6 +118,7 @@ Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmenta
 Parsing module <sys_array>.
 Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" into library work
 Parsing module <segment>.
+WARNING:HDLCompiler:568 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 84: Constant value is truncated to fit in <1> bits.
 Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\mux.v" into library work
 Parsing module <mux>.
 Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\count_pixels2.v" into library work
@@ -182,14 +183,39 @@ Back to vhdl to continue elaboration
 Elaborating entity <VGA> (architecture <Behavioral>) from library <work>.
 Going to verilog side to elaborate module segment
 
-Elaborating module <segment>.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 38: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 42: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 44: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 47: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 50: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 53: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 56: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+Elaborating module <segment(d4_q1=10619,d4_q2=9831,d4_q3=10945,d4_q4=10820,d2_q1=11345,d2_q2=11468,d2_q3=11331,d2_q4=11179,d4_q1R=107)>.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 104: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 105: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 109: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 110: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 115: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 116: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 120: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 121: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 125: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 128: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 132: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 135: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 139: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 142: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 146: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 149: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 161: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 162: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 166: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 167: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 172: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 173: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 177: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 178: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 182: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 185: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 189: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 192: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 196: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 199: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 203: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 206: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module vga640x480
 
@@ -340,17 +366,18 @@ Unit <VGA> synthesized.
 
 Synthesizing Unit <segment>.
     Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v".
-    Found 11-bit adder for signal <GND_48_o_sumRow[0][10]_add_10_OUT> created at line 42.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+        d4_q1 = 10619
+        d4_q2 = 9831
+        d4_q3 = 10945
+        d4_q4 = 10820
+        d2_q1 = 11345
+        d2_q2 = 11468
+        d2_q3 = 11331
+        d2_q4 = 11179
+        d4_q1R = 107
+    Found 14-bit adder for signal <GND_48_o_quad11[13]_add_12_OUT> created at line 105.
+    Found 14-bit adder for signal <GND_48_o_quad12[13]_add_15_OUT> created at line 110.
+    Found 14x7-bit multiplier for signal <quad11[13]_PWR_19_o_MuLt_5_OUT> created at line 83.
 WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -363,27 +390,117 @@ WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<3>>. Latches may be gener
 WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pixOut<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sumRow<0><10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 10-bit comparator greater for signal <GND_48_o_vcnt[9]_LessThan_4_o> created at line 36
-    Found 10-bit comparator greater for signal <vcnt[9]_GND_48_o_LessThan_5_o> created at line 36
-    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_6_o> created at line 37
-    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_7_o> created at line 37
-    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_8_o> created at line 40
-    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_9_o> created at line 40
-    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_12_o> created at line 46
-    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_13_o> created at line 46
-    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_14_o> created at line 49
-    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_15_o> created at line 49
-    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_16_o> created at line 52
-    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_17_o> created at line 52
-    Found 10-bit comparator greater for signal <PWR_19_o_hcnt[9]_LessThan_18_o> created at line 55
-    Found 10-bit comparator greater for signal <hcnt[9]_PWR_19_o_LessThan_19_o> created at line 55
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad11<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <quad12<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <d4_1count<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 21-bit comparator greater for signal <GND_48_o_quad11[13]_LessThan_7_o> created at line 83
+    Found 10-bit comparator greater for signal <GND_48_o_vcnt[9]_LessThan_9_o> created at line 100
+    Found 10-bit comparator greater for signal <n0006> created at line 100
+    Found 10-bit comparator greater for signal <n0011> created at line 138
+    Found 10-bit comparator greater for signal <n0016> created at line 145
+    Found 10-bit comparator lessequal for signal <n0031> created at line 157
+    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_63_o> created at line 160
+    Found 10-bit comparator greater for signal <n0035> created at line 160
+    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_67_o> created at line 165
+    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_69_o> created at line 171
+    Found 10-bit comparator greater for signal <n0042> created at line 171
+    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_73_o> created at line 176
+    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_75_o> created at line 181
+    Found 10-bit comparator greater for signal <n0049> created at line 181
+    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_78_o> created at line 184
+    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_79_o> created at line 188
+    Found 10-bit comparator greater for signal <n0056> created at line 188
+    Found 10-bit comparator lessequal for signal <n0060> created at line 191
+    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_84_o> created at line 195
+    Found 10-bit comparator greater for signal <GND_48_o_hcnt[9]_LessThan_85_o> created at line 198
+    Found 10-bit comparator greater for signal <hcnt[9]_GND_48_o_LessThan_86_o> created at line 198
+    Found 10-bit comparator greater for signal <PWR_19_o_hcnt[9]_LessThan_87_o> created at line 202
+    Found 10-bit comparator greater for signal <hcnt[9]_PWR_19_o_LessThan_88_o> created at line 202
+    Found 10-bit comparator greater for signal <hcnt[9]_PWR_19_o_LessThan_90_o> created at line 205
     Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  23 Latch(s).
-	inferred  14 Comparator(s).
-	inferred 130 Multiplexer(s).
+	inferred   1 Multiplier(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  41 Latch(s).
+	inferred  24 Comparator(s).
+	inferred 167 Multiplexer(s).
 Unit <segment> synthesized.
+
+Synthesizing Unit <div_14u_14u>.
+    Related source file is "".
+    Found 28-bit adder for signal <n0754> created at line 0.
+    Found 28-bit adder for signal <GND_49_o_b[13]_add_1_OUT> created at line 0.
+    Found 27-bit adder for signal <n0758> created at line 0.
+    Found 27-bit adder for signal <GND_49_o_b[13]_add_3_OUT> created at line 0.
+    Found 26-bit adder for signal <n0762> created at line 0.
+    Found 26-bit adder for signal <GND_49_o_b[13]_add_5_OUT> created at line 0.
+    Found 25-bit adder for signal <n0766> created at line 0.
+    Found 25-bit adder for signal <GND_49_o_b[13]_add_7_OUT> created at line 0.
+    Found 24-bit adder for signal <n0770> created at line 0.
+    Found 24-bit adder for signal <GND_49_o_b[13]_add_9_OUT> created at line 0.
+    Found 23-bit adder for signal <n0774> created at line 0.
+    Found 23-bit adder for signal <GND_49_o_b[13]_add_11_OUT> created at line 0.
+    Found 22-bit adder for signal <n0778> created at line 0.
+    Found 22-bit adder for signal <GND_49_o_b[13]_add_13_OUT> created at line 0.
+    Found 21-bit adder for signal <n0782> created at line 0.
+    Found 21-bit adder for signal <GND_49_o_b[13]_add_15_OUT> created at line 0.
+    Found 20-bit adder for signal <n0786> created at line 0.
+    Found 20-bit adder for signal <GND_49_o_b[13]_add_17_OUT> created at line 0.
+    Found 19-bit adder for signal <n0790> created at line 0.
+    Found 19-bit adder for signal <GND_49_o_b[13]_add_19_OUT> created at line 0.
+    Found 18-bit adder for signal <n0794> created at line 0.
+    Found 18-bit adder for signal <GND_49_o_b[13]_add_21_OUT> created at line 0.
+    Found 17-bit adder for signal <n0798> created at line 0.
+    Found 17-bit adder for signal <GND_49_o_b[13]_add_23_OUT> created at line 0.
+    Found 16-bit adder for signal <n0802> created at line 0.
+    Found 16-bit adder for signal <GND_49_o_b[13]_add_25_OUT> created at line 0.
+    Found 15-bit adder for signal <n0806> created at line 0.
+    Found 15-bit adder for signal <GND_49_o_b[13]_add_27_OUT> created at line 0.
+    Found 28-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 27-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 26-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 25-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 24-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 23-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 22-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 21-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 20-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 19-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 18-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 17-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 15-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 14-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Summary:
+	inferred  28 Adder/Subtractor(s).
+	inferred  15 Comparator(s).
+	inferred 183 Multiplexer(s).
+Unit <div_14u_14u> synthesized.
 
 Synthesizing Unit <vga640x480>.
     Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v".
@@ -397,29 +514,29 @@ Synthesizing Unit <vga640x480>.
         vfp = 511
     Found 10-bit register for signal <vc>.
     Found 10-bit register for signal <hc>.
-    Found 10-bit adder for signal <hc[9]_GND_72_o_add_2_OUT> created at line 67.
-    Found 10-bit adder for signal <vc[9]_GND_72_o_add_4_OUT> created at line 76.
-    Found 10-bit comparator greater for signal <hc[9]_PWR_20_o_LessThan_2_o> created at line 66
-    Found 10-bit comparator greater for signal <vc[9]_PWR_20_o_LessThan_4_o> created at line 75
-    Found 10-bit comparator greater for signal <hc[9]_GND_72_o_LessThan_11_o> created at line 88
-    Found 10-bit comparator greater for signal <vc[9]_GND_72_o_LessThan_13_o> created at line 89
+    Found 10-bit adder for signal <hc[9]_GND_178_o_add_2_OUT> created at line 67.
+    Found 10-bit adder for signal <vc[9]_GND_178_o_add_4_OUT> created at line 76.
+    Found 10-bit comparator greater for signal <hc[9]_PWR_23_o_LessThan_2_o> created at line 66
+    Found 10-bit comparator greater for signal <vc[9]_PWR_23_o_LessThan_4_o> created at line 75
+    Found 10-bit comparator greater for signal <hc[9]_GND_178_o_LessThan_11_o> created at line 88
+    Found 10-bit comparator greater for signal <vc[9]_GND_178_o_LessThan_13_o> created at line 89
     Found 10-bit comparator lessequal for signal <n0013> created at line 102
-    Found 10-bit comparator greater for signal <vc[9]_GND_72_o_LessThan_16_o> created at line 102
+    Found 10-bit comparator greater for signal <vc[9]_GND_178_o_LessThan_16_o> created at line 102
     Found 10-bit comparator lessequal for signal <n0017> created at line 104
-    Found 10-bit comparator greater for signal <hc[9]_GND_72_o_LessThan_18_o> created at line 104
-    Found 11-bit comparator greater for signal <GND_72_o_sumRowin[10]_LessThan_21_o> created at line 106
+    Found 10-bit comparator greater for signal <hc[9]_GND_178_o_LessThan_18_o> created at line 104
+    Found 11-bit comparator greater for signal <GND_178_o_sumRowin[10]_LessThan_21_o> created at line 106
     Found 10-bit comparator lessequal for signal <n0026> created at line 117
-    Found 10-bit comparator greater for signal <hc[9]_GND_72_o_LessThan_25_o> created at line 117
+    Found 10-bit comparator greater for signal <hc[9]_GND_178_o_LessThan_25_o> created at line 117
     Found 10-bit comparator lessequal for signal <n0032> created at line 123
-    Found 10-bit comparator greater for signal <hc[9]_GND_72_o_LessThan_29_o> created at line 123
+    Found 10-bit comparator greater for signal <hc[9]_GND_178_o_LessThan_29_o> created at line 123
     Found 10-bit comparator lessequal for signal <n0038> created at line 129
-    Found 10-bit comparator greater for signal <hc[9]_PWR_20_o_LessThan_33_o> created at line 129
+    Found 10-bit comparator greater for signal <hc[9]_PWR_23_o_LessThan_33_o> created at line 129
     Found 10-bit comparator lessequal for signal <n0044> created at line 135
-    Found 10-bit comparator greater for signal <hc[9]_PWR_20_o_LessThan_37_o> created at line 135
+    Found 10-bit comparator greater for signal <hc[9]_PWR_23_o_LessThan_37_o> created at line 135
     Found 10-bit comparator lessequal for signal <n0050> created at line 141
-    Found 10-bit comparator greater for signal <hc[9]_PWR_20_o_LessThan_41_o> created at line 141
+    Found 10-bit comparator greater for signal <hc[9]_PWR_23_o_LessThan_41_o> created at line 141
     Found 10-bit comparator lessequal for signal <n0054> created at line 141
-    Found 10-bit comparator greater for signal <vc[9]_GND_72_o_LessThan_43_o> created at line 141
+    Found 10-bit comparator greater for signal <vc[9]_GND_178_o_LessThan_43_o> created at line 141
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  20 D-type flip-flop(s).
@@ -437,7 +554,7 @@ Synthesizing Unit <debounce>.
     Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\debounce.vhd".
     Found 24-bit register for signal <c>.
     Found 1-bit register for signal <o>.
-    Found 24-bit adder for signal <c[23]_GND_74_o_add_1_OUT> created at line 1241.
+    Found 24-bit adder for signal <c[23]_GND_180_o_add_1_OUT> created at line 1241.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  25 D-type flip-flop(s).
@@ -452,7 +569,7 @@ INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_pr
 WARNING:Xst:653 - Signal <inputs<15:1>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 9-bit register for signal <data>.
     Found 1-bit register for signal <sys_clk>.
-    Found 1024x9-bit Read Only RAM for signal <address[9]_GND_75_o_wide_mux_0_OUT>
+    Found 1024x9-bit Read Only RAM for signal <address[9]_GND_181_o_wide_mux_0_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred  10 D-type flip-flop(s).
@@ -488,10 +605,10 @@ Synthesizing Unit <i3c2>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 10-bit adder for signal <pcnext[9]_GND_76_o_add_57_OUT> created at line 1241.
-    Found 4-bit subtractor for signal <GND_76_o_GND_76_o_sub_43_OUT<3:0>> created at line 1308.
-    Found 8-bit subtractor for signal <GND_76_o_GND_76_o_sub_59_OUT<7:0>> created at line 1308.
-    Found 16-bit subtractor for signal <GND_76_o_GND_76_o_sub_67_OUT<15:0>> created at line 1308.
+    Found 10-bit adder for signal <pcnext[9]_GND_182_o_add_57_OUT> created at line 1241.
+    Found 4-bit subtractor for signal <GND_182_o_GND_182_o_sub_43_OUT<3:0>> created at line 1308.
+    Found 8-bit subtractor for signal <GND_182_o_GND_182_o_sub_59_OUT<7:0>> created at line 1308.
+    Found 16-bit subtractor for signal <GND_182_o_GND_182_o_sub_67_OUT<15:0>> created at line 1308.
     Found 1-bit 16-to-1 multiplexer for signal <inst_data[3]_inputs[15]_Mux_78_o> created at line 250.
     Found 1-bit tristate buffer for signal <i2c_sda> created at line 116
     Summary:
@@ -533,7 +650,7 @@ Synthesizing Unit <ov7670_capture>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 19-bit adder for signal <address[18]_GND_81_o_add_2_OUT> created at line 1241.
+    Found 19-bit adder for signal <address[18]_GND_187_o_add_2_OUT> created at line 1241.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  54 D-type flip-flop(s).
@@ -550,10 +667,10 @@ Unit <RGB> synthesized.
 Synthesizing Unit <Address_Generator>.
     Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\address_Generator.vhd".
     Found 19-bit register for signal <val>.
-    Found 19-bit adder for signal <val[18]_GND_83_o_add_8_OUT> created at line 35.
-    Found 19-bit comparator lessequal for signal <val[18]_GND_83_o_LessThan_2_o> created at line 26
-    Found 19-bit comparator lessequal for signal <val[18]_GND_83_o_LessThan_5_o> created at line 30
-    Found 19-bit comparator lessequal for signal <val[18]_PWR_36_o_LessThan_8_o> created at line 34
+    Found 19-bit adder for signal <val[18]_GND_189_o_add_8_OUT> created at line 35.
+    Found 19-bit comparator lessequal for signal <val[18]_GND_189_o_LessThan_2_o> created at line 26
+    Found 19-bit comparator lessequal for signal <val[18]_GND_189_o_LessThan_5_o> created at line 30
+    Found 19-bit comparator lessequal for signal <val[18]_PWR_39_o_LessThan_8_o> created at line 34
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  19 D-type flip-flop(s).
@@ -566,15 +683,27 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 1
  1024x9-bit single-port Read Only RAM                  : 1
-# Multipliers                                          : 9
+# Multipliers                                          : 10
+ 14x7-bit multiplier                                   : 1
  5x5-bit multiplier                                    : 9
-# Adders/Subtractors                                   : 24
+# Adders/Subtractors                                   : 53
  10-bit adder                                          : 5
- 11-bit adder                                          : 1
+ 14-bit adder                                          : 2
+ 15-bit adder                                          : 2
+ 16-bit adder                                          : 2
  16-bit subtractor                                     : 1
- 18-bit adder                                          : 8
- 19-bit adder                                          : 2
- 24-bit adder                                          : 1
+ 17-bit adder                                          : 2
+ 18-bit adder                                          : 10
+ 19-bit adder                                          : 4
+ 20-bit adder                                          : 2
+ 21-bit adder                                          : 2
+ 22-bit adder                                          : 2
+ 23-bit adder                                          : 2
+ 24-bit adder                                          : 3
+ 25-bit adder                                          : 2
+ 26-bit adder                                          : 2
+ 27-bit adder                                          : 2
+ 28-bit adder                                          : 2
  4-bit adder                                           : 2
  4-bit subtractor                                      : 3
  8-bit subtractor                                      : 1
@@ -592,19 +721,35 @@ Macro Statistics
  7-bit register                                        : 1
  8-bit register                                        : 3
  9-bit register                                        : 2
-# Latches                                              : 23
- 1-bit latch                                           : 23
-# Comparators                                          : 51
- 10-bit comparator greater                             : 28
- 10-bit comparator lessequal                           : 15
+# Latches                                              : 41
+ 1-bit latch                                           : 41
+# Comparators                                          : 76
+ 10-bit comparator greater                             : 35
+ 10-bit comparator lessequal                           : 17
  11-bit comparator greater                             : 1
- 19-bit comparator lessequal                           : 5
+ 14-bit comparator lessequal                           : 1
+ 15-bit comparator lessequal                           : 1
+ 16-bit comparator lessequal                           : 1
+ 17-bit comparator lessequal                           : 1
+ 18-bit comparator lessequal                           : 1
+ 19-bit comparator lessequal                           : 6
+ 20-bit comparator lessequal                           : 1
+ 21-bit comparator greater                             : 1
+ 21-bit comparator lessequal                           : 1
+ 22-bit comparator lessequal                           : 1
+ 23-bit comparator lessequal                           : 1
+ 24-bit comparator lessequal                           : 1
+ 25-bit comparator lessequal                           : 1
+ 26-bit comparator lessequal                           : 1
+ 27-bit comparator lessequal                           : 1
+ 28-bit comparator lessequal                           : 1
  32-bit comparator greater                             : 2
-# Multiplexers                                         : 274
+# Multiplexers                                         : 494
  1-bit 16-to-1 multiplexer                             : 1
- 1-bit 2-to-1 multiplexer                              : 200
+ 1-bit 2-to-1 multiplexer                              : 408
  10-bit 2-to-1 multiplexer                             : 16
- 12-bit 2-to-1 multiplexer                             : 1
+ 12-bit 2-to-1 multiplexer                             : 12
+ 14-bit 2-to-1 multiplexer                             : 1
  16-bit 2-to-1 multiplexer                             : 6
  19-bit 2-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 24
@@ -13519,7 +13664,7 @@ The following registers are absorbed into counter <address>: 1 register on signa
 Unit <ov7670_capture> synthesized (advanced).
 
 Synthesizing (advanced) Unit <ov7670_controller>.
-INFO:Xst:3226 - The RAM <Mram_address[9]_GND_75_o_wide_mux_0_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <data>
+INFO:Xst:3226 - The RAM <Mram_address[9]_GND_181_o_wide_mux_0_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <data>
     -----------------------------------------------------------------------
     | ram_type           | Block                               |          |
     -----------------------------------------------------------------------
@@ -13589,11 +13734,13 @@ Macro Statistics
  1024x9-bit single-port block Read Only RAM            : 1
 # MACs                                                 : 8
  5x5-to-18-bit MAC                                     : 8
-# Multipliers                                          : 1
+# Multipliers                                          : 2
+ 14x7-bit multiplier                                   : 1
  5x3-bit registered multiplier                         : 1
-# Adders/Subtractors                                   : 9
+# Adders/Subtractors                                   : 24
  10-bit adder                                          : 1
- 11-bit adder                                          : 1
+ 14-bit adder                                          : 2
+ 14-bit adder carry in                                 : 14
  16-bit subtractor                                     : 1
  4-bit adder                                           : 2
  4-bit subtractor                                      : 3
@@ -13604,17 +13751,33 @@ Macro Statistics
  24-bit up counter                                     : 1
 # Registers                                            : 15554
  Flip-Flops                                            : 15554
-# Comparators                                          : 51
- 10-bit comparator greater                             : 28
- 10-bit comparator lessequal                           : 15
+# Comparators                                          : 76
+ 10-bit comparator greater                             : 35
+ 10-bit comparator lessequal                           : 17
  11-bit comparator greater                             : 1
- 19-bit comparator lessequal                           : 5
+ 14-bit comparator lessequal                           : 1
+ 15-bit comparator lessequal                           : 1
+ 16-bit comparator lessequal                           : 1
+ 17-bit comparator lessequal                           : 1
+ 18-bit comparator lessequal                           : 1
+ 19-bit comparator lessequal                           : 6
+ 20-bit comparator lessequal                           : 1
+ 21-bit comparator greater                             : 1
+ 21-bit comparator lessequal                           : 1
+ 22-bit comparator lessequal                           : 1
+ 23-bit comparator lessequal                           : 1
+ 24-bit comparator lessequal                           : 1
+ 25-bit comparator lessequal                           : 1
+ 26-bit comparator lessequal                           : 1
+ 27-bit comparator lessequal                           : 1
+ 28-bit comparator lessequal                           : 1
  32-bit comparator greater                             : 2
-# Multiplexers                                         : 252
+# Multiplexers                                         : 472
  1-bit 16-to-1 multiplexer                             : 1
- 1-bit 2-to-1 multiplexer                              : 184
+ 1-bit 2-to-1 multiplexer                              : 392
  10-bit 2-to-1 multiplexer                             : 14
- 12-bit 2-to-1 multiplexer                             : 1
+ 12-bit 2-to-1 multiplexer                             : 12
+ 14-bit 2-to-1 multiplexer                             : 1
  16-bit 2-to-1 multiplexer                             : 6
  19-bit 2-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 24
@@ -13700,6 +13863,25 @@ INFO:Xst:2261 - The FF/Latch <pixOut_2> in Unit <sys_array> is equivalent to the
 INFO:Xst:2261 - The FF/Latch <pixOut_0> in Unit <sys_array> is equivalent to the following 2 FFs/Latches, which will be removed : <pixOut_4> <pixOut_8> 
 INFO:Xst:2261 - The FF/Latch <pixOut_3> in Unit <sys_array> is equivalent to the following 2 FFs/Latches, which will be removed : <pixOut_7> <pixOut_11> 
 INFO:Xst:2261 - The FF/Latch <pixOut_1> in Unit <sys_array> is equivalent to the following 2 FFs/Latches, which will be removed : <pixOut_5> <pixOut_9> 
+WARNING:Xst:3001 - This design contains one or more registers or latches with an active
+   asynchronous set and asynchronous reset. While this circuit can be built,
+   it creates a sub-optimal implementation in terms of area, power and
+   performance. For a more optimal implementation Xilinx highly recommends
+   one of the following:
+
+          1) Remove either the set or reset from all registers and latches if
+             not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Zynq asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    d4_1count_0 in unit <segment>
+
 
 Optimizing unit <Dff> ...
 
@@ -13719,6 +13901,8 @@ Optimizing unit <sys_array> ...
 Optimizing unit <vga640x480> ...
 
 Optimizing unit <segment> ...
+
+Optimizing unit <div_14u_14u> ...
 WARNING:Xst:1710 - FF/Latch <Inst_window/dff1/q_10> (without init value) has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <Inst_window/dff1/q_11> (without init value) has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_window/dff2/q_11> (without init value) has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
@@ -26539,13 +26723,43 @@ WARNING:Xst:2677 - Node <Inst_window/fifo1/dffgenerate[635].DffInternal/q_4> of 
 WARNING:Xst:2677 - Node <Inst_window/fifo1/dffgenerate[635].DffInternal/q_5> of sequential type is unconnected in block <top_level>.
 WARNING:Xst:2677 - Node <Inst_window/fifo1/dffgenerate[635].DffInternal/q_6> of sequential type is unconnected in block <top_level>.
 WARNING:Xst:2677 - Node <Inst_window/fifo1/dffgenerate[635].DffInternal/q_7> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <Inst_segment/Mmult_quad11[13]_PWR_19_o_MuLt_5_OUT> is unconnected in block <top_level>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <Inst_segment/d4_1count_0> is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_13> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_1> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_2> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_3> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_4> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_5> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_6> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_7> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_8> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_9> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_10> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_11> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_12> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad12_13> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_1> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_2> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_3> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_4> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_5> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_6> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_7> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_8> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_9> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_10> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_11> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_segment/quad11_12> of sequential type is unconnected in block <top_level>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
 INFO:Xst:2261 - The FF/Latch <Inst_segment/pixOut_2> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_segment/pixOut_6> <Inst_segment/pixOut_10> 
-INFO:Xst:2261 - The FF/Latch <Inst_segment/pixOut_1> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_segment/pixOut_5> <Inst_segment/pixOut_9> 
-INFO:Xst:2261 - The FF/Latch <Inst_segment/pixOut_0> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_segment/pixOut_4> <Inst_segment/pixOut_8> 
 INFO:Xst:2261 - The FF/Latch <Inst_segment/pixOut_3> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_segment/pixOut_7> <Inst_segment/pixOut_11> 
+INFO:Xst:2261 - The FF/Latch <Inst_segment/pixOut_0> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_segment/pixOut_4> <Inst_segment/pixOut_8> 
+INFO:Xst:2261 - The FF/Latch <Inst_segment/pixOut_1> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_segment/pixOut_5> <Inst_segment/pixOut_9> 
 Found area constraint ratio of 100 (+ 5) on block top_level, actual ratio is 6.
 
 Final Macro Processing ...
@@ -26591,20 +26805,20 @@ Top Level Output File Name         : top_level.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1123
+# BELS                             : 1087
 #      GND                         : 2
 #      INV                         : 25
 #      LUT1                        : 77
-#      LUT2                        : 42
+#      LUT2                        : 32
 #      LUT3                        : 53
-#      LUT4                        : 54
-#      LUT5                        : 207
-#      LUT6                        : 396
-#      MUXCY                       : 120
-#      MUXF7                       : 16
+#      LUT4                        : 53
+#      LUT5                        : 199
+#      LUT6                        : 399
+#      MUXCY                       : 110
+#      MUXF7                       : 17
 #      VCC                         : 2
-#      XORCY                       : 129
-# FlipFlops/Latches                : 895
+#      XORCY                       : 118
+# FlipFlops/Latches                : 884
 #      FD                          : 80
 #      FD_1                        : 10
 #      FDC                         : 10
@@ -26612,8 +26826,7 @@ Primitive and Black Box Usage:
 #      FDE                         : 23
 #      FDR                         : 58
 #      FDRE                        : 689
-#      LD                          : 11
-#      LDE                         : 4
+#      LD                          : 4
 # RAMS                             : 105
 #      RAMB18E1                    : 2
 #      RAMB36E1                    : 103
@@ -26640,18 +26853,18 @@ Selected Device : 7z020clg484-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             895  out of  106400     0%  
- Number of Slice LUTs:                  937  out of  53200     1%  
-    Number used as Logic:               854  out of  53200     1%  
+ Number of Slice Registers:             884  out of  106400     0%  
+ Number of Slice LUTs:                  921  out of  53200     1%  
+    Number used as Logic:               838  out of  53200     1%  
     Number used as Memory:               83  out of  17400     0%  
        Number used as SRL:               83
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1596
-   Number with an unused Flip Flop:     701  out of   1596    43%  
-   Number with an unused LUT:           659  out of   1596    41%  
-   Number of fully used LUT-FF pairs:   236  out of   1596    14%  
-   Number of unique control sets:        20
+ Number of LUT Flip Flop pairs used:   1578
+   Number with an unused Flip Flop:     694  out of   1578    43%  
+   Number with an unused LUT:           657  out of   1578    41%  
+   Number of fully used LUT-FF pairs:   227  out of   1578    14%  
+   Number of unique control sets:        19
 
 IO Utilization: 
  Number of IOs:                          37
@@ -26681,16 +26894,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------------------------------------------------------------+----------------------------------+-------+
-Clock Signal                                                                             | Clock buffer(FF name)            | Load  |
------------------------------------------------------------------------------------------+----------------------------------+-------+
-inst_vga_pll/clkout1                                                                     | BUFG                             | 964   |
-inst_vga_pll/clkout0                                                                     | BUFG                             | 58    |
-ov7670_pclk                                                                              | BUFGP                            | 159   |
-Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o(Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o1:O)| NONE(*)(Inst_segment/pixOut_0)   | 4     |
-Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o(Inst_segment/Mmux_vcnt[9]_vcnt[9]_MUX_249_o11:O)  | NONE(*)(Inst_segment/sumRow<0>_0)| 11    |
------------------------------------------------------------------------------------------+----------------------------------+-------+
-(*) These 2 clock signal(s) are generated by combinatorial logic,
+---------------------------------------------------------------------------------+-------------------------------+-------+
+Clock Signal                                                                     | Clock buffer(FF name)         | Load  |
+---------------------------------------------------------------------------------+-------------------------------+-------+
+inst_vga_pll/clkout1                                                             | BUFG                          | 964   |
+inst_vga_pll/clkout0                                                             | BUFG                          | 58    |
+ov7670_pclk                                                                      | BUFGP                         | 159   |
+Inst_segment/GND_48_o_GND_48_o_OR_24_o(Inst_segment/GND_48_o_GND_48_o_OR_24_o3:O)| NONE(*)(Inst_segment/pixOut_0)| 4     |
+---------------------------------------------------------------------------------+-------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -26700,7 +26912,7 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                  | Buffer(FF name)                                                                                                                                                   | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
+Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[56].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelatb_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTB)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T)| 2     |
@@ -26725,7 +26937,7 @@ Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/vali
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/v6_noinit.ram/cascadelatb_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTB)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/cascadelatb_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTB)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
-Inst_ov7670_controller/Inst_i3c2/bitcount<7>(XST_GND:G)                                                                                                                                                                                                                                                         | NONE(Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT)                                                                                              | 2     |
+Inst_ov7670_controller/Inst_i3c2/bitcount<7>(XST_GND:G)                                                                                                                                                                                                                                                         | NONE(Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT)                                                                                             | 2     |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 
 Timing Summary:
@@ -26734,7 +26946,7 @@ Speed Grade: -1
 
    Minimum period: 14.089ns (Maximum Frequency: 70.977MHz)
    Minimum input arrival time before clock: 2.788ns
-   Maximum output required time after clock: 4.216ns
+   Maximum output required time after clock: 4.320ns
    Maximum combinational path delay: 1.282ns
 
 Timing Details:
@@ -26774,21 +26986,21 @@ Timing constraint: Default period analysis for Clock 'inst_vga_pll/clkout0'
   Total number of paths / destination ports: 3852 / 67
 -------------------------------------------------------------------------
 Delay:               5.605ns (Levels of Logic = 5)
-  Source:            Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT (RAM)
+  Source:            Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT (RAM)
   Destination:       Inst_ov7670_controller/Inst_i3c2/pcnext_2 (FF)
   Source Clock:      inst_vga_pll/clkout0 rising
   Destination Clock: inst_vga_pll/clkout0 rising
 
-  Data Path: Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT to Inst_ov7670_controller/Inst_i3c2/pcnext_2
+  Data Path: Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT to Inst_ov7670_controller/Inst_i3c2/pcnext_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB18E1:CLKARDCLK->DOADO1   18   2.454   0.747  Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT (Inst_ov7670_controller/data<1>)
-     LUT4:I0->O            1   0.053   0.485  Inst_ov7670_controller/Inst_i3c2/_n0605<3>_SW0 (N24)
-     LUT6:I4->O            4   0.053   0.622  Inst_ov7670_controller/Inst_i3c2/_n0605<3> (Inst_ov7670_controller/Inst_i3c2/_n0605)
-     LUT6:I3->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_76_o_wide_mux_118_OUT611 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_76_o_wide_mux_118_OUT611)
-     LUT6:I5->O            2   0.053   0.608  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_76_o_wide_mux_118_OUT612 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_76_o_wide_mux_118_OUT61)
-     LUT6:I3->O            1   0.053   0.000  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_76_o_wide_mux_118_OUT9 (Inst_ov7670_controller/Inst_i3c2/state[3]_GND_76_o_wide_mux_118_OUT<2>)
+     RAMB18E1:CLKARDCLK->DOADO1   18   2.454   0.747  Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT (Inst_ov7670_controller/data<1>)
+     LUT4:I0->O            1   0.053   0.485  Inst_ov7670_controller/Inst_i3c2/_n0607<3>_SW0 (N24)
+     LUT6:I4->O            4   0.053   0.622  Inst_ov7670_controller/Inst_i3c2/_n0607<3> (Inst_ov7670_controller/Inst_i3c2/_n0607)
+     LUT6:I3->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_182_o_wide_mux_118_OUT611 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_182_o_wide_mux_118_OUT611)
+     LUT6:I5->O            2   0.053   0.608  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_182_o_wide_mux_118_OUT612 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_182_o_wide_mux_118_OUT61)
+     LUT6:I3->O            1   0.053   0.000  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_GND_182_o_wide_mux_118_OUT9 (Inst_ov7670_controller/Inst_i3c2/state[3]_GND_182_o_wide_mux_118_OUT<2>)
      FD:D                      0.011          Inst_ov7670_controller/Inst_i3c2/pcnext_2
     ----------------------------------------
     Total                      5.605ns (2.730ns logic, 2.875ns route)
@@ -26810,45 +27022,11 @@ Delay:               1.211ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FD_1:C->Q            19   0.289   0.858  Inst_ov7670_capture/latched_href (Inst_ov7670_capture/latched_href)
-     LUT6:I0->O            1   0.053   0.000  Inst_ov7670_capture/Mmux_href_last[5]_GND_81_o_mux_8_OUT11 (Inst_ov7670_capture/href_last[5]_GND_81_o_mux_8_OUT<0>)
+     LUT6:I0->O            1   0.053   0.000  Inst_ov7670_capture/Mmux_href_last[5]_GND_187_o_mux_8_OUT11 (Inst_ov7670_capture/href_last[5]_GND_187_o_mux_8_OUT<0>)
      FDR:D                     0.011          Inst_ov7670_capture/href_last_0
     ----------------------------------------
     Total                      1.211ns (0.353ns logic, 0.858ns route)
                                        (29.1% logic, 70.9% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o'
-  Clock period: 2.451ns (frequency: 407.997MHz)
-  Total number of paths / destination ports: 66 / 11
--------------------------------------------------------------------------
-Delay:               2.451ns (Levels of Logic = 13)
-  Source:            Inst_segment/sumRow<0>_0 (LATCH)
-  Destination:       Inst_segment/sumRow<0>_10 (LATCH)
-  Source Clock:      Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o falling
-  Destination Clock: Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o falling
-
-  Data Path: Inst_segment/sumRow<0>_0 to Inst_segment/sumRow<0>_10
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.389   0.725  Inst_segment/sumRow<0>_0 (Inst_segment/sumRow<0>_0)
-     LUT6:I1->O            1   0.053   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_lut<0> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_lut<0>)
-     MUXCY:S->O            1   0.291   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<0> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<0>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<1> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<1>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<2> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<2>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<3> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<3>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<4> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<4>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<5> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<5>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<6> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<6>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<7> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<7>)
-     MUXCY:CI->O           1   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<8> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<8>)
-     MUXCY:CI->O           0   0.015   0.000  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<9> (Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_cy<9>)
-     XORCY:CI->O           1   0.320   0.485  Inst_segment/Madd_GND_48_o_sumRow[0][10]_add_10_OUT_xor<10> (Inst_segment/GND_48_o_sumRow[0][10]_add_10_OUT<10>)
-     LUT2:I0->O            1   0.053   0.000  Inst_segment/Mmux_sumRow[0][10]_sumRow[0][10]_MUX_235_o11 (Inst_segment/sumRow[0][10]_sumRow[0][10]_MUX_235_o)
-     LD:D                     -0.021          Inst_segment/sumRow<0>_10
-    ----------------------------------------
-    Total                      2.451ns (1.241ns logic, 1.210ns route)
-                                       (50.6% logic, 49.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'inst_vga_pll/clkout1'
@@ -26885,7 +27063,7 @@ Offset:              1.487ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IOBUF:IO->O           2   0.000   0.491  ov7670_siod_IOBUF (N104)
+     IOBUF:IO->O           2   0.000   0.491  ov7670_siod_IOBUF (N98)
      LUT4:I2->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT11 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT1)
      LUT6:I5->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT12 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT11)
      LUT6:I5->O            1   0.053   0.000  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT13 (Inst_ov7670_controller/Inst_i3c2/state[3]_i2c_data[8]_wide_mux_114_OUT<0>)
@@ -26908,7 +27086,7 @@ Offset:              1.001ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            14   0.000   0.720  btnr_IBUF (btnr_IBUF)
-     LUT6:I2->O            1   0.053   0.000  Inst_ov7670_capture/we_reg_glue_set_G (N119)
+     LUT6:I2->O            1   0.053   0.000  Inst_ov7670_capture/we_reg_glue_set_G (N115)
      MUXF7:I1->O           1   0.217   0.000  Inst_ov7670_capture/we_reg_glue_set (Inst_ov7670_capture/we_reg_glue_set)
      FDR:D                     0.011          Inst_ov7670_capture/we_reg
     ----------------------------------------
@@ -26919,7 +27097,7 @@ Offset:              1.001ns (Levels of Logic = 3)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'inst_vga_pll/clkout1'
   Total number of paths / destination ports: 650 / 15
 -------------------------------------------------------------------------
-Offset:              4.216ns (Levels of Logic = 7)
+Offset:              4.320ns (Levels of Logic = 7)
   Source:            Inst_VGA2/hc_2 (FF)
   Destination:       vga_g<3> (PAD)
   Source Clock:      inst_vga_pll/clkout1 rising
@@ -26929,59 +27107,36 @@ Offset:              4.216ns (Levels of Logic = 7)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              9   0.282   0.688  Inst_VGA2/hc_2 (Inst_VGA2/hc_2)
-     LUT4:I0->O            1   0.053   0.635  Inst_VGA2/green<1>8 (Inst_VGA2/green<1>7)
-     LUT6:I2->O            1   0.053   0.413  Inst_VGA2/green<1>9 (Inst_VGA2/green<1>8)
-     LUT6:I5->O            1   0.053   0.413  Inst_VGA2/green<1>10 (Inst_VGA2/green<1>9)
-     LUT6:I5->O            1   0.053   0.635  Inst_VGA2/green<1>11 (Inst_VGA2/green<1>10)
-     LUT6:I2->O            4   0.053   0.433  Inst_VGA2/green<1>12 (green2<0>)
+     LUT4:I0->O            1   0.053   0.635  Inst_VGA2/green<1>7 (Inst_VGA2/green<1>6)
+     LUT6:I2->O            1   0.053   0.413  Inst_VGA2/green<1>8 (Inst_VGA2/green<1>7)
+     LUT6:I5->O            1   0.053   0.413  Inst_VGA2/green<1>9 (Inst_VGA2/green<1>8)
+     LUT6:I5->O            1   0.053   0.739  Inst_VGA2/green<1>10 (Inst_VGA2/green<1>9)
+     LUT6:I0->O            4   0.053   0.433  Inst_VGA2/green<1>11 (green2<0>)
      LUT4:I3->O            1   0.053   0.399  Inst_mux/Mmux_vgaGout41 (vga_g_3_OBUF)
      OBUF:I->O                 0.000          vga_g_3_OBUF (vga_g<3>)
     ----------------------------------------
-    Total                      4.216ns (0.600ns logic, 3.616ns route)
-                                       (14.2% logic, 85.8% route)
+    Total                      4.320ns (0.600ns logic, 3.720ns route)
+                                       (13.9% logic, 86.1% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_segment/GND_48_o_GND_48_o_OR_24_o'
   Total number of paths / destination ports: 12 / 12
 -------------------------------------------------------------------------
 Offset:              1.340ns (Levels of Logic = 2)
   Source:            Inst_segment/pixOut_3 (LATCH)
   Destination:       vga_g<3> (PAD)
-  Source Clock:      Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o falling
+  Source Clock:      Inst_segment/GND_48_o_GND_48_o_OR_24_o falling
 
   Data Path: Inst_segment/pixOut_3 to vga_g<3>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDE:G->Q              3   0.389   0.499  Inst_segment/pixOut_3 (Inst_segment/pixOut_3)
-     LUT4:I2->O            1   0.053   0.399  Inst_mux/Mmux_vgaBout41 (vga_b_3_OBUF)
-     OBUF:I->O                 0.000          vga_b_3_OBUF (vga_b<3>)
+     LD:G->Q               3   0.389   0.499  Inst_segment/pixOut_3 (Inst_segment/pixOut_3)
+     LUT4:I2->O            1   0.053   0.399  Inst_mux/Mmux_vgaGout41 (vga_g_3_OBUF)
+     OBUF:I->O                 0.000          vga_g_3_OBUF (vga_g<3>)
     ----------------------------------------
     Total                      1.340ns (0.442ns logic, 0.898ns route)
                                        (33.0% logic, 67.0% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o'
-  Total number of paths / destination ports: 72 / 8
--------------------------------------------------------------------------
-Offset:              3.304ns (Levels of Logic = 5)
-  Source:            Inst_segment/sumRow<0>_7 (LATCH)
-  Destination:       vga_b<3> (PAD)
-  Source Clock:      Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o falling
-
-  Data Path: Inst_segment/sumRow<0>_7 to vga_b<3>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               2   0.389   0.745  Inst_segment/sumRow<0>_7 (Inst_segment/sumRow<0>_7)
-     LUT6:I0->O            1   0.053   0.485  Inst_VGA2/GND_72_o_sumRowin[10]_LessThan_21_o11 (Inst_VGA2/GND_72_o_sumRowin[10]_LessThan_21_o1)
-     LUT4:I2->O            2   0.053   0.641  Inst_VGA2/GND_72_o_sumRowin[10]_LessThan_21_o12 (Inst_VGA2/GND_72_o_sumRowin[10]_LessThan_21_o)
-     LUT4:I0->O            4   0.053   0.433  Inst_VGA2/blue<1>1 (blue2<0>)
-     LUT4:I3->O            1   0.053   0.399  Inst_mux/Mmux_vgaBout41 (vga_b_3_OBUF)
-     OBUF:I->O                 0.000          vga_b_3_OBUF (vga_b<3>)
-    ----------------------------------------
-    Total                      3.304ns (0.601ns logic, 2.703ns route)
-                                       (18.2% logic, 81.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'inst_vga_pll/clkout0'
@@ -27027,22 +27182,13 @@ Delay:               1.282ns (Levels of Logic = 3)
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock Inst_segment/GND_48_o_vcnt[9]_LessThan_4_o
+Clock to Setup on destination clock Inst_segment/GND_48_o_GND_48_o_OR_24_o
 --------------------+---------+---------+---------+---------+
                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------+---------+---------+---------+---------+
-inst_vga_pll/clkout1|         |         |    3.292|         |
+inst_vga_pll/clkout1|         |         |    5.015|         |
 --------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o
---------------------------------------+---------+---------+---------+---------+
-                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
---------------------------------------+---------+---------+---------+---------+
-Inst_segment/vcnt[9]_vcnt[9]_MUX_249_o|         |         |    2.451|         |
-inst_vga_pll/clkout1                  |         |         |    3.251|         |
---------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock inst_vga_pll/clkout0
 --------------------+---------+---------+---------+---------+
@@ -27072,14 +27218,14 @@ ov7670_pclk    |    2.062|    1.211|         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 124.00 secs
-Total CPU time to Xst completion: 123.82 secs
+Total REAL time to Xst completion: 127.00 secs
+Total CPU time to Xst completion: 127.11 secs
  
 --> 
 
-Total memory usage is 509140 kilobytes
+Total memory usage is 514580 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 25789 (   0 filtered)
+Number of warnings : 25864 (   0 filtered)
 Number of infos    :   27 (   0 filtered)
 

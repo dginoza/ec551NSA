@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Dec 02 17:17:20 2016
+// Written by: Map P.20131013 on Sat Dec 03 14:53:56 2016
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -2310,8 +2310,8 @@ TIMEGRP inst_vga_pll_clkout1 = BEL "Inst_debounce/o" BEL "Inst_debounce/c_0"
         "Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T_pins<67>"
         PIN
         "Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T_pins<66>";
-PIN Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT_pins<32> =
-        BEL "Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT"
+PIN Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT_pins<32> =
+        BEL "Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT"
         PINNAME CLKARDCLK;
 TIMEGRP inst_vga_pll_clkout0 = BEL "inst_vga_pll/clkout1_buf" BEL
         "Inst_ov7670_controller/Inst_i3c2/state_FSM_FFd2" BEL
@@ -2371,7 +2371,7 @@ TIMEGRP inst_vga_pll_clkout0 = BEL "inst_vga_pll/clkout1_buf" BEL
         "Inst_ov7670_controller/Inst_i3c2/ack_flag" BEL
         "Inst_ov7670_controller/sys_clk" BEL
         "Inst_ov7670_controller/Inst_i3c2/i2c_sda" PIN
-        "Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT_pins<32>";
+        "Inst_ov7670_controller_Mram_address[9]_GND_181_o_wide_mux_0_OUT_pins<32>";
 PIN inst_vga_pll/mmcm_adv_inst_pins<2> = BEL "inst_vga_pll/mmcm_adv_inst"
         PINNAME CLKIN1;
 TIMEGRP clk100 = PIN "inst_vga_pll/mmcm_adv_inst_pins<2>";
