@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Thu Dec 01 19:30:32 2016
+// Written by: Map P.20131013 on Fri Dec 02 17:17:20 2016
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -18,6 +18,7 @@ COMP "vga_r<0>" LOCATE = SITE "V20" LEVEL 1;
 COMP "btnc" LOCATE = SITE "P16" LEVEL 1;
 COMP "btnl" LOCATE = SITE "N15" LEVEL 1;
 COMP "btnr" LOCATE = SITE "R18" LEVEL 1;
+COMP "btnu" LOCATE = SITE "T18" LEVEL 1;
 COMP "vga_hsync" LOCATE = SITE "AA19" LEVEL 1;
 COMP "vga_b<1>" LOCATE = SITE "Y20" LEVEL 1;
 COMP "vga_b<2>" LOCATE = SITE "AB20" LEVEL 1;
@@ -1147,9 +1148,16 @@ TIMEGRP inst_vga_pll_clkout1 = BEL "Inst_debounce/o" BEL "Inst_debounce/c_0"
         "Inst_window/fifo1/DffOutputReg/q_9" BEL
         "Inst_window/fifo1/dffgenerate[635].DffInternal/q_8" BEL
         "Inst_window/fifo1/dffgenerate[635].DffInternal/q_9" BEL
-        "Inst_window/pixOut_3" BEL "Inst_window/pixOut_2" BEL
-        "Inst_window/pixOut_1" BEL "Inst_window/pixOut_0" BEL "Inst_VGA/Vsync"
-        BEL "Inst_VGA/Hsync" BEL "Inst_VGA/activeArea" BEL
+        "Inst_VGA2/hc_9" BEL "Inst_VGA2/hc_8" BEL "Inst_VGA2/hc_7" BEL
+        "Inst_VGA2/hc_6" BEL "Inst_VGA2/hc_5" BEL "Inst_VGA2/hc_4" BEL
+        "Inst_VGA2/hc_3" BEL "Inst_VGA2/hc_2" BEL "Inst_VGA2/hc_1" BEL
+        "Inst_VGA2/hc_0" BEL "Inst_VGA2/vc_9" BEL "Inst_VGA2/vc_8" BEL
+        "Inst_VGA2/vc_7" BEL "Inst_VGA2/vc_6" BEL "Inst_VGA2/vc_5" BEL
+        "Inst_VGA2/vc_4" BEL "Inst_VGA2/vc_3" BEL "Inst_VGA2/vc_2" BEL
+        "Inst_VGA2/vc_1" BEL "Inst_VGA2/vc_0" BEL "Inst_window/pixOut_3" BEL
+        "Inst_window/pixOut_2" BEL "Inst_window/pixOut_1" BEL
+        "Inst_window/pixOut_0" BEL "Inst_VGA/Vsync" BEL "Inst_VGA/Hsync" BEL
+        "Inst_VGA/activeArea" BEL
         "Inst_window/fifo2/dffgenerate[634].DffInternal/Mshreg_q_8_0" BEL
         "Inst_window/fifo2/dffgenerate[634].DffInternal/Mshreg_q_8_1" BEL
         "Inst_window/fifo2/dffgenerate[634].DffInternal/Mshreg_q_8_2" BEL
@@ -2302,8 +2310,8 @@ TIMEGRP inst_vga_pll_clkout1 = BEL "Inst_debounce/o" BEL "Inst_debounce/c_0"
         "Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T_pins<67>"
         PIN
         "Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T_pins<66>";
-PIN Inst_ov7670_controller_Mram_address[9]_GND_62_o_wide_mux_0_OUT_pins<32> =
-        BEL "Inst_ov7670_controller_Mram_address[9]_GND_62_o_wide_mux_0_OUT"
+PIN Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT_pins<32> =
+        BEL "Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT"
         PINNAME CLKARDCLK;
 TIMEGRP inst_vga_pll_clkout0 = BEL "inst_vga_pll/clkout1_buf" BEL
         "Inst_ov7670_controller/Inst_i3c2/state_FSM_FFd2" BEL
@@ -2363,14 +2371,14 @@ TIMEGRP inst_vga_pll_clkout0 = BEL "inst_vga_pll/clkout1_buf" BEL
         "Inst_ov7670_controller/Inst_i3c2/ack_flag" BEL
         "Inst_ov7670_controller/sys_clk" BEL
         "Inst_ov7670_controller/Inst_i3c2/i2c_sda" PIN
-        "Inst_ov7670_controller_Mram_address[9]_GND_62_o_wide_mux_0_OUT_pins<32>";
+        "Inst_ov7670_controller_Mram_address[9]_GND_75_o_wide_mux_0_OUT_pins<32>";
 PIN inst_vga_pll/mmcm_adv_inst_pins<2> = BEL "inst_vga_pll/mmcm_adv_inst"
         PINNAME CLKIN1;
 TIMEGRP clk100 = PIN "inst_vga_pll/mmcm_adv_inst_pins<2>";
 TS_clk100 = PERIOD TIMEGRP "clk100" 10 ns HIGH 50%;
-TS_inst_vga_pll_clkout0 = PERIOD TIMEGRP "inst_vga_pll_clkout0" TS_clk100 /
-        0.5 HIGH 50%;
 TS_inst_vga_pll_clkout1 = PERIOD TIMEGRP "inst_vga_pll_clkout1" TS_clk100 /
         0.25 HIGH 50%;
+TS_inst_vga_pll_clkout0 = PERIOD TIMEGRP "inst_vga_pll_clkout0" TS_clk100 /
+        0.5 HIGH 50%;
 SCHEMATIC END;
 

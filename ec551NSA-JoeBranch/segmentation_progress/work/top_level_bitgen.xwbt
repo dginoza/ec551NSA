@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\Jack\Desktop\2017_Winter_Texts\ec551NSA-JoeBranch\segmentation_progress\work\top_level.ncd
-OUTFILE=C:\Users\Jack\Desktop\2017_Winter_Texts\ec551NSA-JoeBranch\segmentation_progress\work\top_level.bit
+INFILE=D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\work\top_level.ncd
+OUTFILE=D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\work\top_level.bit
 FAMILY=Zynq
 PART=xc7z020-1clg484
-WORKINGDIR=C:\Users\Jack\Desktop\2017_Winter_Texts\ec551NSA-JoeBranch\segmentation_progress\work
+WORKINGDIR=D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\work
 LICENSE=WebPack
-USER_INFO=211149893_0_0_331
+USER_INFO=211260181_0_0_838

@@ -13,6 +13,9 @@
          <ClosedNode>/top_level - Behavioral C:|Users|Hamster|Projects|FPGA|help|ov7670_fr|top_level.vhd/Inst_frame_buffer - frame_buffer - SYN</ClosedNode>
          <ClosedNode>/top_level - Behavioral C:|Users|hamster|Projects|FPGA|ov7670_fr|top_level.vhd/Inst_frame_buffer - frame_buffer - SYN</ClosedNode>
          <ClosedNode>/top_level - Behavioral C:|Users|hamster|Projects|FPGA|ov7670_fr|top_level.vhd/Inst_ov7670_controller - ov7670_controller - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|Documents|GitHub|ec551NSA|ec551NSA-JoeBranch|segmentation_progress|top_level.vhd/Inst_frame_buffer - frame_buffer - SYN</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|Documents|GitHub|ec551NSA|ec551NSA-JoeBranch|segmentation_progress|top_level.vhd/Inst_ov7670_controller - ov7670_controller - Behavioral</ClosedNode>
+         <ClosedNode>/top_level - Behavioral D:|Documents|GitHub|ec551NSA|ec551NSA-JoeBranch|segmentation_progress|top_level.vhd/Inst_window - sys_array</ClosedNode>
          <ClosedNode>/top_level - Behavioral D:|Documents|Grad School|EC 551 - Advanced Digital Design|clean|ov7670_fr|top_level.vhd/Inst_window - window</ClosedNode>
          <ClosedNode>/top_level - Behavioral D:|Documents|Grad School|EC 551 - Advanced Digital Design|clean|ov7670_fr|top_level.vhd/Inst_window - window/fifo1 - nFIFO</ClosedNode>
          <ClosedNode>/top_level - Behavioral D:|Documents|Grad School|EC 551 - Advanced Digital Design|clean|ov7670_fr|top_level.vhd/Inst_window - window/fifo2 - nFIFO</ClosedNode>
@@ -25,13 +28,13 @@
          <ClosedNode>/window D:|Documents|Grad School|EC 551 - Advanced Digital Design|moved_right_FB|ov7670_fr|window.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>top_level - Behavioral (C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/top_level.vhd)</SelectedItem>
+         <SelectedItem>top_level - Behavioral (D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/top_level.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000206000000020000000000000000000000000200000064ffffffff000000810000000300000002000002060000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000048a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000048a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>top_level - Behavioral (C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/top_level.vhd)</CurrentItem>
+      <CurrentItem>top_level - Behavioral (D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/top_level.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -54,9 +57,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001860000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001e8000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004200000001000000000000002400000001000000000000006600000001000000000000011c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>address_Generator.vhd</CurrentItem>
+      <CurrentItem>D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\address_Generator.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -66,7 +69,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000118000000010001000100000000000000000000000064ffffffff000000810000000000000001000001180000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -82,13 +85,13 @@
          <ClosedNode>Implement Design/Translate</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Manage Configuration Project (iMPACT)</SelectedItem>
+         <SelectedItem>Generate Target PROM/ACE File</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >12</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d30000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Manage Configuration Project (iMPACT)</CurrentItem>
+      <CurrentItem>Generate Target PROM/ACE File</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
@@ -149,13 +152,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e8000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
@@ -165,12 +168,12 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e8000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
 </Project>

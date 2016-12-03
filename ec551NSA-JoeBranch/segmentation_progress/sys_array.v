@@ -116,6 +116,16 @@ module sys_array(input clk, input rst, input [11:0] datainRGB, input pixel_rdy, 
 			weights[7] <= $signed(-1);
 			weights[8] <= $signed(-1);
 			
+/*			weights[0] <= $signed(2);
+			weights[1] <= $signed(2);
+			weights[2] <= $signed(0);
+			weights[3] <= $signed(2);
+			weights[4] <= $signed(0);
+			weights[5] <= $signed(-2);
+			weights[6] <= $signed(0);
+			weights[7] <= $signed(-2);
+			weights[8] <= $signed(-2);*/
+			
 			//uncomment below to test identity matrix
 /*			weights[0] <= $signed(0);
 			weights[1] <= $signed(0);
@@ -159,7 +169,7 @@ module sys_array(input clk, input rst, input [11:0] datainRGB, input pixel_rdy, 
 						//pixOut <= {4'b0000,prevPixels[3][7:4],prevPixels[3][3:0]};
 						pixOut <= {4'b0000,4'b0000,4'b0000};
 					end	
-					// if tempOut is greater than 255 we return a white pixel	
+					// if tempOut is greater than 255 we return a white pixel	(can change to <255 ..)
 					else if ($signed(tempOut) > 255) begin
 						//pixOut <= 12'd4095;
 						//G <= 4'b1111 - ((prevPixels[3][7:4] + prevPixels[3][3:0])/4'd4);

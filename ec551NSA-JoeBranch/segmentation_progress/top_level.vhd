@@ -13,6 +13,7 @@ entity top_level is
            btnl            : in  STD_LOGIC;
            btnc            : in  STD_LOGIC;
            btnr            : in  STD_LOGIC;
+			  btnu				: in STD_LOGIC;
            config_finished : out STD_LOGIC;
 			  vsyncLed			: out STD_LOGIC;
            
@@ -52,12 +53,47 @@ architecture Behavioral of top_level is
 		);
 	END COMPONENT;
 	
+	COMPONENT vga640x480
+	PORT(
+		dclk	: IN STD_LOGIC;
+		clr	: IN STD_LOGIC;
+		sumRowin : IN STD_LOGIC_vector(10 downto 0);
+		hsync	: OUT STD_LOGIC;
+		vsync : OUT STD_LOGIC;
+		red : OUT STD_LOGIC_vector(3 downto 0);
+		green : OUT STD_LOGIC_vector(3 downto 0);
+		blue : OUT STD_LOGIC_vector(3 downto 0)
+		);
+		END COMPONENT;
+	
+	COMPONENT mux
+	PORT(
+		sel	: IN STD_LOGIC;
+		vgaR1 : IN STD_LOGIC_vector(3 downto 0);
+		vgaG1 : IN STD_LOGIC_vector(3 downto 0);
+		vgaB1 : IN STD_LOGIC_vector(3 downto 0);
+		vgaH1 : IN STD_LOGIC;
+		vgaV1 : IN STD_LOGIC;
+		vgaR2 : IN STD_LOGIC_vector(3 downto 0);
+		vgaG2 : IN STD_LOGIC_vector(3 downto 0);
+		vgaB2 : IN STD_LOGIC_vector(3 downto 0);
+		vgaH2 : IN STD_LOGIC;
+		vgaV2 : IN STD_LOGIC;
+		vgaRout : out STD_LOGIC_vector(3 downto 0);
+		vgaGout : out STD_LOGIC_vector(3 downto 0);
+		vgaBout : out STD_LOGIC_vector(3 downto 0);
+		vgaHout : out STD_LOGIC;
+		vgaVout : out STD_LOGIC
+		);
+	END COMPONENT;
+	
 	COMPONENT segment
 	PORT(
 		hcnt : IN std_logic_vector(9 downto 0);
 		vcnt : IN std_logic_vector(9 downto 0);
 		pixelIn : IN std_logic_vector(11 downto 0);
-		pixelOut : OUT std_logic_vector(11 downto 0)
+		pixelOut : OUT std_logic_vector(11 downto 0);
+		sumRowOut : OUT std_logic_vector(10 downto 0)
 		);
 	END COMPONENT;
 	
@@ -171,7 +207,12 @@ architecture Behavioral of top_level is
    signal resend     : std_logic;
    signal nBlank     : std_logic;
    signal vsync      : std_logic;
-	signal hSync		: std_logic;
+	signal hsync		: std_logic;
+	signal vsync1      : std_logic;
+	signal hsync1		: std_logic;
+	signal vsync2      : std_logic;
+	signal hsync2		: std_logic;
+	
    signal nSync      : std_logic;
 	
 	signal vsyncPr    : std_logic;
@@ -185,14 +226,19 @@ architecture Behavioral of top_level is
 	signal windowedData : std_logic_vector(11 downto 0);
 	signal segmentData : std_logic_vector(11 downto 0);
 	signal filt1Data : std_logic_vector(11 downto 0);
+	
+	signal sumRowOutz  : std_logic_vector(10 downto 0);
    
    signal rdaddress  : std_logic_vector(18 downto 0);
    signal rddata     : std_logic_vector(11 downto 0);
-   signal red,green,blue : std_logic_vector(7 downto 0);
+   signal red,green,blue : std_logic_vector(3 downto 0);
+	signal red1,green1,blue1 : std_logic_vector(7 downto 0);
+	signal red2,green2,blue2 : std_logic_vector(3 downto 0);
    signal activeArea : std_logic;
    
    signal rez_160x120 : std_logic;
    signal rez_320x240 : std_logic;
+	signal switchVGA : std_logic;
 	
 	signal hcnt : std_logic_vector(9 downto 0);
    signal vcnt : std_logic_vector(9 downto 0);
@@ -201,13 +247,18 @@ architecture Behavioral of top_level is
 	
 	constant pixRdy :  std_logic := '1';
 	constant pixOK :  std_logic := '1';
+	
+	constant selModetest :  std_logic := '1';
+	constant selMux :  std_logic := '1';
 begin
-   vga_r <= red(7 downto 4);
-   vga_g <= green(7 downto 4);
-   vga_b <= blue(7 downto 4);
+   vga_r <= red;
+   vga_g <= green;
+   vga_b <= blue;
    
    rez_160x120 <= btnl;
    rez_320x240 <= btnr;
+	
+	switchVGA <= btnu;
   
 -- For the Nexys2  
 --	Inst_vga_pll: vga_pll PORT MAP(
@@ -224,6 +275,7 @@ inst_vga_pll : vga_pll_zedboard
 
    vga_vsync <= vsync;
 	vsyncLed <= vsync;
+	vga_hsync <= hsync;
 	
 	Inst_window : sys_array PORT MAP(
 		clk		=> clk_vga,
@@ -247,8 +299,8 @@ inst_vga_pll : vga_pll_zedboard
       rez_160x120 => rez_160x120,
       rez_320x240 => rez_320x240,
 		clkout     => open,
-		Hsync      => vga_hsync,
-		Vsync      => vsync,
+		Hsync      => hsync1,
+		Vsync      => vsync1,
 		Nblank     => nBlank,
 		activeArea => activeArea,
 		Nsync      => nsync,
@@ -260,8 +312,39 @@ inst_vga_pll : vga_pll_zedboard
 		hcnt			=> hcnt,
 		vcnt			=> vcnt,
 		pixelIn		=> windowedData,
-		pixelOut		=> segmentData
+		pixelOut		=> segmentData,
+		sumRowOut	=> sumRowOutz
 	);
+	
+	Inst_VGA2 : vga640x480 PORT MAP(
+		dclk	=>	clk_vga,
+		clr	=>	resend,
+		sumRowin => sumRowOutz,
+		hsync	=>	hsync2,
+		vsync =>	vsync2,
+		red 	=>	red2,
+		green =>	green2,
+		blue 	=>	blue2
+		);
+	
+	Inst_mux: mux PORT MAP (
+		sel		=>	switchVGA,
+		vgaR1		=>	red1(7 downto 4),
+		vgaG1 	=>	green1(7 downto 4),
+		vgaB1 	=>	blue1(7 downto 4),
+		vgaH1 	=>	hsync1,
+		vgaV1 	=>	vsync1,
+		vgaR2 	=>	red2,
+		vgaG2 	=>	green2,
+		vgaB2 	=>	blue2,
+		vgaH2 	=>	hsync2,
+		vgaV2 	=>	vsync2,
+		vgaRout 	=>	red,
+		vgaGout 	=>	green,
+		vgaBout 	=>	blue,
+		vgaHout 	=>	hsync,
+		vgaVout 	=>	vsync
+		);
 
 	Inst_debounce: debounce PORT MAP(
 		clk => clk_vga,
@@ -306,9 +389,9 @@ inst_vga_pll : vga_pll_zedboard
 	Inst_RGB: RGB PORT MAP(
 		Din => segmentData,
 		Nblank => activeArea,
-		R => red,
-		G => green,
-		B => blue
+		R => red1,
+		G => green1,
+		B => blue1
 	);
 
 	Inst_Address_Generator: Address_Generator PORT MAP(
@@ -316,7 +399,7 @@ inst_vga_pll : vga_pll_zedboard
       rez_160x120 => rez_160x120,
       rez_320x240 => rez_320x240,
 		enable => activeArea,
-      vsync  => vsync,
+      vsync  => vsync1,
 		address => rdaddress
 	);
 

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-12-01T18:07:21</DateModified>
+  <DateModified>2016-12-02T13:55:50</DateModified>
   <ModuleName>top_level</ModuleName>
   <SummaryTimeStamp>2016-11-27T19:10:32</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/iseconfig/top_level.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Jack/Desktop/2017_Winter_Texts/ec551NSA-JoeBranch/segmentation_progress/work\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/iseconfig/top_level.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/work\</ImplementationReportsDirectory>
   <DateInitialized>2013-05-25T21:23:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

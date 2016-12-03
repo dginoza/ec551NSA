@@ -18,19 +18,29 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module segment(input [9:0] hcnt, input [9:0] vcnt, input [11:0] pixelIn, output [11:0] pixelOut
+module segment(input [9:0] hcnt, input [9:0] vcnt, input [11:0] pixelIn, output [11:0] pixelOut, output [10:0] sumRowOut
     );
 	 
 	 reg [11:0] pixOut;
+	 reg [10:0] sumRow [5:0] ;
+	 
+	 assign sumRowOut = sumRow[0];
 	 
 	 assign pixelOut = pixOut;
 	 
 	 always @ (hcnt or vcnt) begin
+		 if (vcnt == 10'd0) begin
+			sumRow[0] = 10'd0;
+		 end
+		 
 		 if(vcnt > 10'd150 && vcnt < 10'd300) begin
 			if(hcnt > 10'd50 && hcnt < 10'd125) begin
 				pixOut = pixelIn;
 			end
 			else if (hcnt > 10'd140 && hcnt < 10'd215) begin
+				if(vcnt == 10'd200) begin
+					sumRow[0] = pixelIn[11:8] + sumRow[0];
+				end
 				pixOut = pixelIn;
 			end
 			else if (hcnt > 10'd230 && hcnt < 10'd305) begin
