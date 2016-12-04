@@ -101,50 +101,109 @@ begin
 	// first check if we're within vertical active video range
 	if (vc >= vbp && vc < vfp)
 	begin
+		// Segment 1 Area
 		if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(sumRowin > 11'd2) begin
-				red = 4'b0000;
-				green = 4'b1111;
-				blue = 4'b0000;
+			if(sumRowin > 11'd6) begin
+				// Draw a 4
+				if (hc >= (hbp+50) && hc < (hbp+75) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50) && hc < (hbp+100) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+100) && hc < (hbp+125) && vc >= (vbp+150) && vc < (vbp+250)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+				
 			end
 			else begin
-				red = 4'b0000;
-				green = 4'b0000;
-				blue = 4'b1111;
+				// Draw a 2
+				if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+100) && hc < (hbp+125) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+200) && vc < (vbp+225)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50) && hc < (hbp+75) && vc >= (vbp+225) && vc < (vbp+250)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+250) && vc < (vbp+275)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
 			end
 		end
+		
+		// Segment 2 Area
 		else if (hc >= (hbp+140) && hc < (hbp+215) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
 			red =4'b0000;
 			green =4'b1111;
 			blue =4'b0000;
 		end
+		
+		// Segment 3 Area
 		else if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
 			red =4'b0000;
 			green =4'b1111;
 			blue =4'b0000;
 		end
+		
+		// Segment 4 Area
 		else if (hc >= (hbp+335) && hc < (hbp+410) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
 			red =4'b0000;
 			green =4'b1111;
 			blue =4'b0000;
 		end
+		
+		// Segment 5 Area
 		else if (hc >= (hbp+425) && hc < (hbp+500) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
 			red =4'b0000;
 			green =4'b1111;
 			blue =4'b0000;
 		end
+		
+		// Segment 6 Area
 		else if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
 			red =4'b0000;
 			green =4'b1111;
 			blue =4'b0000;
 		end
-		// we're outside active horizontal range so display black
+		
+		// we're outside our range so display black
 		else
 		begin
 			red = 4'd0;

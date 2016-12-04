@@ -28,13 +28,13 @@
          <ClosedNode>/window D:|Documents|Grad School|EC 551 - Advanced Digital Design|moved_right_FB|ov7670_fr|window.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>inst_vga_pll - vga_pll_zedboard (D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/ipcore_dir/vga_pll_zedboard.xco)</SelectedItem>
+         <SelectedItem>top_level - Behavioral (D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/top_level.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000048a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000048a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>inst_vga_pll - vga_pll_zedboard (D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/ipcore_dir/vga_pll_zedboard.xco)</CurrentItem>
+      <CurrentItem>top_level - Behavioral (D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/top_level.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -87,7 +87,7 @@
       <SelectedItems>
          <SelectedItem>Generate Target PROM/ACE File</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d30000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
