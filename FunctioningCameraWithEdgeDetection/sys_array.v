@@ -160,7 +160,7 @@ module sys_array(input clk, input rst, input [11:0] datainRGB, input pixel_rdy, 
 						pixOut <= {4'b0000,4'b0000,4'b0000};
 					end	
 					// if tempOut is greater than 255 we return a white pixel	
-					else if ($signed(tempOut) > 255) begin
+					else if ($signed(tempOut) > 15) begin
 						//pixOut <= 12'd4095;
 						//G <= 4'b1111 - ((prevPixels[3][7:4] + prevPixels[3][3:0])/4'd4);
 						//R <= prevPixels[3][7:4] + G;

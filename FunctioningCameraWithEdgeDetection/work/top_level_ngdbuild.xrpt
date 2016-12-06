@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Thu Dec 01 13:10:25 2016">
+  <application stringID="NgdBuild" timeStamp="Tue Dec 06 13:18:42 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -55,7 +55,7 @@
         <item DEFAULT="None" label="-dd" stringID="NGDBUILD_output_dir" value="_ngo"/>
         <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc7z020-clg484-1"/>
         <item DEFAULT="None" label="-sd" stringID="NGDBUILD_search_path" value="../ipcore_dir"/>
-        <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA_clean/ov7670_fr/zeboard.ucf"/>
+        <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="D:/Documents/GitHub/ec551NSA/FunctioningCameraWithEdgeDetection/zeboard.ucf"/>
       </section>
     </task>
     <task stringID="NGDBUILD_REPORT">
@@ -84,7 +84,7 @@
         <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="13"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="47"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="37"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="183"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="184"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="360"/>
         <item dataType="int" stringID="NGDBUILD_NUM_MMCME2_ADV" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="92"/>
@@ -113,7 +113,7 @@
         <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="13"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="47"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="37"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="183"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="184"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="360"/>
         <item dataType="int" stringID="NGDBUILD_NUM_MMCME2_ADV" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="92"/>

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: top_level.prj
 
@@ -26721,14 +26721,14 @@ Top Level Output File Name         : top_level.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1815
+# BELS                             : 1816
 #      GND                         : 2
 #      INV                         : 25
 #      LUT1                        : 77
 #      LUT2                        : 191
 #      LUT3                        : 76
 #      LUT4                        : 111
-#      LUT5                        : 266
+#      LUT5                        : 267
 #      LUT6                        : 448
 #      MUXCY                       : 302
 #      MUXF7                       : 21
@@ -26770,16 +26770,16 @@ Selected Device : 7z020clg484-1
 
 Slice Logic Utilization: 
  Number of Slice Registers:             944  out of  106400     0%  
- Number of Slice LUTs:                 1277  out of  53200     2%  
-    Number used as Logic:              1194  out of  53200     2%  
+ Number of Slice LUTs:                 1278  out of  53200     2%  
+    Number used as Logic:              1195  out of  53200     2%  
     Number used as Memory:               83  out of  17400     0%  
        Number used as SRL:               83
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1908
-   Number with an unused Flip Flop:     964  out of   1908    50%  
-   Number with an unused LUT:           631  out of   1908    33%  
-   Number of fully used LUT-FF pairs:   313  out of   1908    16%  
+ Number of LUT Flip Flop pairs used:   1909
+   Number with an unused Flip Flop:     965  out of   1909    50%  
+   Number with an unused LUT:           631  out of   1909    33%  
+   Number of fully used LUT-FF pairs:   313  out of   1909    16%  
    Number of unique control sets:        24
 
 IO Utilization: 
@@ -26833,7 +26833,7 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                  | Buffer(FF name)                                                                                                                                                   | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[73].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
+Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelatb_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTB)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T)| 2     |
@@ -26877,7 +26877,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'inst_vga_pll/clkout1'
   Clock period: 14.089ns (frequency: 70.977MHz)
-  Total number of paths / destination ports: 28778839595739 / 1043
+  Total number of paths / destination ports: 28778839595755 / 1043
 -------------------------------------------------------------------------
 Delay:               14.089ns (Levels of Logic = 6)
   Source:            Inst_window/Maddsub_weights[1][4]_GND_42_o_MuLt_7_OUT (DSP)
@@ -26966,7 +26966,7 @@ Delay:               2.843ns (Levels of Logic = 5)
     ----------------------------------------  ------------
      LD:G->Q              18   0.389   0.714  Inst_segment/d4_1count_1 (Inst_segment/d4_1count_1)
      LUT5:I2->O            1   0.053   0.485  Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o12 (Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o11)
-     LUT6:I4->O            1   0.053   0.000  Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o14_G (N137)
+     LUT6:I4->O            1   0.053   0.000  Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o14_G (N135)
      MUXF7:I1->O           1   0.217   0.413  Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o14 (Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o13)
      LUT5:I4->O            1   0.053   0.413  Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o15 (Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o15)
      LUT5:I4->O            1   0.053   0.000  Inst_segment/Mmux_d4_1count[3]_GND_48_o_MUX_206_o111 (Inst_segment/d4_1count[3]_GND_48_o_MUX_206_o)
@@ -27158,7 +27158,7 @@ Offset:              1.487ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IOBUF:IO->O           2   0.000   0.491  ov7670_siod_IOBUF (N118)
+     IOBUF:IO->O           2   0.000   0.491  ov7670_siod_IOBUF (N116)
      LUT4:I2->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT11 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT1)
      LUT6:I5->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT12 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT11)
      LUT6:I5->O            1   0.053   0.000  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT13 (Inst_ov7670_controller/Inst_i3c2/state[3]_i2c_data[8]_wide_mux_114_OUT<0>)
@@ -27181,7 +27181,7 @@ Offset:              1.001ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            14   0.000   0.720  btnr_IBUF (btnr_IBUF)
-     LUT6:I2->O            1   0.053   0.000  Inst_ov7670_capture/we_reg_glue_set_G (N139)
+     LUT6:I2->O            1   0.053   0.000  Inst_ov7670_capture/we_reg_glue_set_G (N137)
      MUXF7:I1->O           1   0.217   0.000  Inst_ov7670_capture/we_reg_glue_set (Inst_ov7670_capture/we_reg_glue_set)
      FDR:D                     0.011          Inst_ov7670_capture/we_reg
     ----------------------------------------
@@ -27206,7 +27206,7 @@ Offset:              5.346ns (Levels of Logic = 8)
      LUT5:I2->O            3   0.053   0.739  Inst_VGA2/vc[9]_GND_177_o_LessThan_52_o12 (Inst_VGA2/vc[9]_GND_177_o_LessThan_52_o)
      LUT6:I1->O            1   0.053   0.413  Inst_VGA2/green<0>14 (Inst_VGA2/green<0>13)
      LUT6:I5->O            1   0.053   0.635  Inst_VGA2/green<0>15 (Inst_VGA2/green<0>14)
-     LUT6:I2->O            1   0.053   0.485  Inst_VGA2/green<0>18_SW0 (N122)
+     LUT6:I2->O            1   0.053   0.485  Inst_VGA2/green<0>18_SW0 (N120)
      LUT6:I4->O            4   0.053   0.622  Inst_VGA2/green<0>18 (Inst_VGA2/green<0>17)
      LUT6:I3->O            1   0.053   0.399  Inst_mux/Mmux_vgaGout41 (vga_g_3_OBUF)
      OBUF:I->O                 0.000          vga_g_3_OBUF (vga_g<3>)
@@ -27250,7 +27250,7 @@ Offset:              4.306ns (Levels of Logic = 6)
      LD:G->Q              11   0.389   0.668  Inst_segment/d4_1count_2 (Inst_segment/d4_1count_2)
      LUT4:I1->O            3   0.053   0.753  Inst_VGA2/GND_177_o_sumRowin[10]_LessThan_21_o11 (Inst_VGA2/GND_177_o_sumRowin[10]_LessThan_21_o)
      LUT6:I0->O            1   0.053   0.725  Inst_VGA2/green<0>11 (Inst_VGA2/green<0>10)
-     LUT6:I1->O            1   0.053   0.485  Inst_VGA2/green<0>18_SW0 (N122)
+     LUT6:I1->O            1   0.053   0.485  Inst_VGA2/green<0>18_SW0 (N120)
      LUT6:I4->O            4   0.053   0.622  Inst_VGA2/green<0>18 (Inst_VGA2/green<0>17)
      LUT6:I3->O            1   0.053   0.399  Inst_mux/Mmux_vgaGout41 (vga_g_3_OBUF)
      OBUF:I->O                 0.000          vga_g_3_OBUF (vga_g<3>)
@@ -27387,12 +27387,12 @@ ov7670_pclk    |    2.062|    1.211|         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 128.00 secs
-Total CPU time to Xst completion: 127.85 secs
+Total REAL time to Xst completion: 146.00 secs
+Total CPU time to Xst completion: 145.84 secs
  
 --> 
 
-Total memory usage is 511060 kilobytes
+Total memory usage is 511444 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 25871 (   0 filtered)

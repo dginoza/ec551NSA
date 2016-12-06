@@ -29,7 +29,7 @@
 <msg type="warning" file="PhysDesignRules" num="2500" delta="old" >This design does not have a PS7 block. Instantiate the PS7 block in order to ensure proper fabric tie-offs and correct operation of the processing_system7.
 </msg>
 
-<msg type="warning" file="PhysDesignRules" num="781" delta="new" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp74.PULL</arg> is set but the tri state is not configured. 
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">ProtoComp74.PULL</arg> is set but the tri state is not configured. 
 </msg>
 
 </messages>

@@ -108,45 +108,45 @@ Cores Search Directories           : {"../ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\Dff.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\Dff.v" into library work
 Parsing module <Dff>.
-Analyzing Verilog file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\nFIFO.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\nFIFO.v" into library work
 Parsing module <nFIFO>.
-Analyzing Verilog file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\sys_array.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\sys_array.v" into library work
 Parsing module <sys_array>.
-Analyzing Verilog file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\count_pixels2.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\count_pixels2.v" into library work
 Parsing module <count_pixels_two>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ipcore_dir\xilinx_frame_buffer.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ipcore_dir\xilinx_frame_buffer.vhd" into library work
 Parsing entity <xilinx_frame_buffer>.
 Parsing architecture <xilinx_frame_buffer_a> of entity <xilinx_frame_buffer>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ipcore_dir\vga_pll_zedboard.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ipcore_dir\vga_pll_zedboard.vhd" into library work
 Parsing entity <vga_pll_zedboard>.
 Parsing architecture <xilinx> of entity <vga_pll_zedboard>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\i3c2.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\i3c2.vhd" into library work
 Parsing entity <i3c2>.
 Parsing architecture <Behavioral> of entity <i3c2>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\vga.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\vga.vhd" into library work
 Parsing entity <VGA>.
 Parsing architecture <Behavioral> of entity <vga>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\RGB.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\RGB.vhd" into library work
 Parsing entity <RGB>.
 Parsing architecture <Behavioral> of entity <rgb>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd" into library work
 Parsing entity <ov7670_controller>.
 Parsing architecture <Behavioral> of entity <ov7670_controller>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_capture.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_capture.vhd" into library work
 Parsing entity <ov7670_capture>.
 Parsing architecture <Behavioral> of entity <ov7670_capture>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\frame_buffer.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\frame_buffer.vhd" into library work
 Parsing entity <frame_buffer>.
 Parsing architecture <SYN> of entity <frame_buffer>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\debounce.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\debounce.vhd" into library work
 Parsing entity <debounce>.
 Parsing architecture <Behavioral> of entity <debounce>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\address_Generator.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\address_Generator.vhd" into library work
 Parsing entity <Address_Generator>.
 Parsing architecture <Behavioral> of entity <address_generator>.
-Parsing VHDL file "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\top_level.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\top_level.vhd" into library work
 Parsing entity <top_level>.
 Parsing architecture <Behavioral> of entity <top_level>.
 
@@ -164,13 +164,13 @@ Elaborating module <sys_array>.
 Elaborating module <Dff>.
 
 Elaborating module <nFIFO(fifosize=636)>.
-WARNING:HDLCompiler:634 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\sys_array.v" Line 83: Net <reset> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\sys_array.v" Line 83: Net <reset> does not have a driver.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module count_pixels_two
 
 Elaborating module <count_pixels_two>.
-WARNING:HDLCompiler:91 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\count_pixels2.v" Line 36: Signal <reset> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\count_pixels2.v" Line 56: Signal <pixel_count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\count_pixels2.v" Line 36: Signal <reset> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\count_pixels2.v" Line 56: Signal <pixel_count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 Back to vhdl to continue elaboration
 
 Elaborating entity <VGA> (architecture <Behavioral>) from library <work>.
@@ -180,7 +180,7 @@ Elaborating entity <debounce> (architecture <Behavioral>) from library <work>.
 Elaborating entity <ov7670_controller> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <i3c2> (architecture <Behavioral>) with generics from library <work>.
-WARNING:HDLCompiler:634 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd" Line 42: Net <inputs[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd" Line 42: Net <inputs[15]> does not have a driver.
 
 Elaborating entity <frame_buffer> (architecture <SYN>) from library <work>.
 
@@ -191,30 +191,30 @@ Elaborating entity <ov7670_capture> (architecture <Behavioral>) from library <wo
 Elaborating entity <RGB> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <Address_Generator> (architecture <Behavioral>) from library <work>.
-WARNING:Xst:2972 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\sys_array.v" line 93. All outputs of instance <dff9> of block <Dff> are unconnected in block <sys_array>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\sys_array.v" line 93. All outputs of instance <dff9> of block <Dff> are unconnected in block <sys_array>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <top_level>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\top_level.vhd".
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\top_level.vhd" line 234: Output port <clkout> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\top_level.vhd" line 234: Output port <Nblank> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\top_level.vhd" line 234: Output port <Nsync> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\top_level.vhd".
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\top_level.vhd" line 234: Output port <clkout> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\top_level.vhd" line 234: Output port <Nblank> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\top_level.vhd" line 234: Output port <Nsync> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <top_level> synthesized.
 
 Synthesizing Unit <vga_pll_zedboard>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ipcore_dir\vga_pll_zedboard.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ipcore_dir\vga_pll_zedboard.vhd".
     Summary:
 	no macro.
 Unit <vga_pll_zedboard> synthesized.
 
 Synthesizing Unit <sys_array>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\sys_array.v".
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\sys_array.v" line 93: Output port <q> of the instance <dff9> is unconnected or connected to loadless signal.
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\sys_array.v".
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\sys_array.v" line 93: Output port <q> of the instance <dff9> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 18-bit register for signal <tempOut1>.
     Found 18-bit register for signal <tempOut2>.
@@ -260,21 +260,21 @@ WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless sig
 Unit <sys_array> synthesized.
 
 Synthesizing Unit <Dff>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\Dff.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\Dff.v".
     Found 12-bit register for signal <q>.
     Summary:
 	inferred  12 D-type flip-flop(s).
 Unit <Dff> synthesized.
 
 Synthesizing Unit <nFIFO>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\nFIFO.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\nFIFO.v".
         fifosize = 636
     Summary:
 	no macro.
 Unit <nFIFO> synthesized.
 
 Synthesizing Unit <count_pixels_two>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\count_pixels2.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\count_pixels2.v".
     Found 19-bit comparator lessequal for signal <n0000> created at line 56
     Found 19-bit comparator lessequal for signal <n0002> created at line 56
     Summary:
@@ -283,7 +283,7 @@ Synthesizing Unit <count_pixels_two>.
 Unit <count_pixels_two> synthesized.
 
 Synthesizing Unit <VGA>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\vga.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\vga.vhd".
     Found 10-bit register for signal <Vcnt>.
     Found 1-bit register for signal <activeArea>.
     Found 1-bit register for signal <Hsync>.
@@ -308,7 +308,7 @@ Synthesizing Unit <VGA>.
 Unit <VGA> synthesized.
 
 Synthesizing Unit <debounce>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\debounce.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\debounce.vhd".
     Found 24-bit register for signal <c>.
     Found 1-bit register for signal <o>.
     Found 24-bit adder for signal <c[23]_GND_48_o_add_1_OUT> created at line 1241.
@@ -318,11 +318,11 @@ Synthesizing Unit <debounce>.
 Unit <debounce> synthesized.
 
 Synthesizing Unit <ov7670_controller>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd".
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd" line 51: Output port <reg_addr> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd" line 51: Output port <reg_data> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd" line 51: Output port <reg_write> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_controller.vhd" line 51: Output port <error> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd".
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd" line 51: Output port <reg_addr> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd" line 51: Output port <reg_data> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd" line 51: Output port <reg_write> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_controller.vhd" line 51: Output port <error> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <inputs<15:1>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 9-bit register for signal <data>.
     Found 1-bit register for signal <sys_clk>.
@@ -333,7 +333,7 @@ WARNING:Xst:653 - Signal <inputs<15:1>> is used but never assigned. This sourcel
 Unit <ov7670_controller> synthesized.
 
 Synthesizing Unit <i3c2>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\i3c2.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\i3c2.vhd".
         clk_divide = "01111101"
     Found 1-bit register for signal <i2c_scl>.
     Found 1-bit register for signal <state[3]_clk_DFF_116_q>.
@@ -377,13 +377,13 @@ Synthesizing Unit <i3c2>.
 Unit <i3c2> synthesized.
 
 Synthesizing Unit <frame_buffer>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\frame_buffer.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\frame_buffer.vhd".
     Summary:
 	no macro.
 Unit <frame_buffer> synthesized.
 
 Synthesizing Unit <ov7670_capture>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\ov7670_capture.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\ov7670_capture.vhd".
     Found 2-bit register for signal <line>.
     Found 1-bit register for signal <href_hold>.
     Found 16-bit register for signal <d_latch>.
@@ -416,13 +416,13 @@ Synthesizing Unit <ov7670_capture>.
 Unit <ov7670_capture> synthesized.
 
 Synthesizing Unit <RGB>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\RGB.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\RGB.vhd".
     Summary:
 	inferred   3 Multiplexer(s).
 Unit <RGB> synthesized.
 
 Synthesizing Unit <Address_Generator>.
-    Related source file is "D:\Documents\Grad School\EC 551 - Advanced Digital Design\moved_right_FB_prevVGA_clean\ov7670_fr\address_Generator.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\FunctioningCameraWithEdgeDetection\address_Generator.vhd".
     Found 19-bit register for signal <val>.
     Found 19-bit adder for signal <val[18]_GND_57_o_add_8_OUT> created at line 35.
     Found 19-bit comparator lessequal for signal <val[18]_GND_57_o_LessThan_2_o> created at line 26
@@ -26446,14 +26446,14 @@ Top Level Output File Name         : top_level.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 952
+# BELS                             : 953
 #      GND                         : 2
 #      INV                         : 25
 #      LUT1                        : 77
 #      LUT2                        : 13
 #      LUT3                        : 47
 #      LUT4                        : 37
-#      LUT5                        : 183
+#      LUT5                        : 184
 #      LUT6                        : 360
 #      MUXCY                       : 92
 #      MUXF7                       : 16
@@ -26492,16 +26492,16 @@ Selected Device : 7z020clg484-1
 
 Slice Logic Utilization: 
  Number of Slice Registers:             840  out of  106400     0%  
- Number of Slice LUTs:                  825  out of  53200     1%  
-    Number used as Logic:               742  out of  53200     1%  
+ Number of Slice LUTs:                  826  out of  53200     1%  
+    Number used as Logic:               743  out of  53200     1%  
     Number used as Memory:               83  out of  17400     0%  
        Number used as SRL:               83
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1495
-   Number with an unused Flip Flop:     655  out of   1495    43%  
-   Number with an unused LUT:           670  out of   1495    44%  
-   Number of fully used LUT-FF pairs:   170  out of   1495    11%  
+ Number of LUT Flip Flop pairs used:   1496
+   Number with an unused Flip Flop:     656  out of   1496    43%  
+   Number with an unused LUT:           670  out of   1496    44%  
+   Number of fully used LUT-FF pairs:   170  out of   1496    11%  
    Number of unique control sets:        16
 
 IO Utilization: 
@@ -26545,7 +26545,7 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                  | Buffer(FF name)                                                                                                                                                   | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[55].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
+Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B) | 364   |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelatb_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTB)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T)| 2     |
@@ -26589,7 +26589,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'inst_vga_pll/clkout1'
   Clock period: 14.089ns (frequency: 70.977MHz)
-  Total number of paths / destination ports: 28778839594394 / 973
+  Total number of paths / destination ports: 28778839594410 / 973
 -------------------------------------------------------------------------
 Delay:               14.089ns (Levels of Logic = 6)
   Source:            Inst_window/Maddsub_weights[1][4]_GND_42_o_MuLt_7_OUT (DSP)
@@ -26696,7 +26696,7 @@ Offset:              1.487ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IOBUF:IO->O           2   0.000   0.491  ov7670_siod_IOBUF (N84)
+     IOBUF:IO->O           2   0.000   0.491  ov7670_siod_IOBUF (N82)
      LUT4:I2->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT11 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT1)
      LUT6:I5->O            1   0.053   0.413  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT12 (Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT11)
      LUT6:I5->O            1   0.053   0.000  Inst_ov7670_controller/Inst_i3c2/Mmux_state[3]_i2c_data[8]_wide_mux_114_OUT13 (Inst_ov7670_controller/Inst_i3c2/state[3]_i2c_data[8]_wide_mux_114_OUT<0>)
@@ -26719,7 +26719,7 @@ Offset:              1.001ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            14   0.000   0.720  btnr_IBUF (btnr_IBUF)
-     LUT6:I2->O            1   0.053   0.000  Inst_ov7670_capture/we_reg_glue_set_G (N97)
+     LUT6:I2->O            1   0.053   0.000  Inst_ov7670_capture/we_reg_glue_set_G (N95)
      MUXF7:I1->O           1   0.217   0.000  Inst_ov7670_capture/we_reg_glue_set (Inst_ov7670_capture/we_reg_glue_set)
      FDR:D                     0.011          Inst_ov7670_capture/we_reg
     ----------------------------------------
@@ -26816,12 +26816,12 @@ ov7670_pclk    |    2.062|    1.211|         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 124.00 secs
-Total CPU time to Xst completion: 123.87 secs
+Total REAL time to Xst completion: 211.00 secs
+Total CPU time to Xst completion: 210.41 secs
  
 --> 
 
-Total memory usage is 505748 kilobytes
+Total memory usage is 507092 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 25755 (   0 filtered)

@@ -5,7 +5,7 @@ D:\Xilinx\14.7\ISE_DS\ISE\.
    "top_level" is an NCD, version 3.2, device xc7z020, package clg484, speed -1
 Opened constraints file top_level.pcf.
 
-Sun Dec 04 15:10:32 2016
+Tue Dec 06 12:56:03 2016
 
 D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g Binary:no -g CRC:Enable -g ProgPin:PullUp -g InitPin:Pullup -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g OverTempPowerDown:Disable -g USR_ACCESS:None -g JTAG_XADC:Enable -g DCIUpdateMode:AsRequired -g StartUpClk:JtagClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:Auto -g Security:None -g ICAP_select:Auto -g ReadBack -g DonePipe:Yes -g DriveDone:No top_level.ncd 
 

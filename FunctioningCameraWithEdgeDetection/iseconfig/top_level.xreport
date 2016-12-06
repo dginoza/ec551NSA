@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-12-01T13:02:32</DateModified>
+  <DateModified>2016-12-06T13:00:56</DateModified>
   <ModuleName>top_level</ModuleName>
   <SummaryTimeStamp>2016-11-27T19:10:32</SummaryTimeStamp>
-  <SavedFilePath>D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA_clean/ov7670_fr/iseconfig/top_level.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Documents/Grad School/EC 551 - Advanced Digital Design/moved_right_FB_prevVGA_clean/ov7670_fr/work\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Documents/GitHub/ec551NSA/FunctioningCameraWithEdgeDetection/iseconfig/top_level.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Documents/GitHub/ec551NSA/FunctioningCameraWithEdgeDetection/work\</ImplementationReportsDirectory>
   <DateInitialized>2013-05-25T21:23:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-USER-PC::  Sun Dec 04 15:09:33 2016
+USER-PC::  Tue Dec 06 12:55:03 2016
 
 par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd
 top_level.pcf 
@@ -33,13 +33,13 @@ Device Utilization Summary:
    Number of OLOGICE2s                       1 out of 200     1%
    Number of RAMB18E1s                       2 out of 280     1%
    Number of RAMB36E1s                     103 out of 140    73%
-   Number of Slices                        554 out of 13300   4%
+   Number of Slices                        538 out of 13300   4%
    Number of Slice Registers               944 out of 106400  1%
       Number used as Flip Flops            880
       Number used as Latches                64
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                   1373 out of 53200   2%
+   Number of Slice LUTS                   1370 out of 53200   2%
    Number of Slice LUT-Flip Flop pairs    1524 out of 53200   2%
 
 
@@ -47,31 +47,31 @@ Overall effort level (-ol):   High
 Router effort level (-rl):    High 
 
 Starting initial Timing Analysis.  REAL time: 13 secs 
-Finished initial Timing Analysis.  REAL time: 13 secs 
+Finished initial Timing Analysis.  REAL time: 14 secs 
 
 Starting Router
 
 
-Phase  1  : 27059 unrouted;      REAL time: 14 secs 
+Phase  1  : 27064 unrouted;      REAL time: 15 secs 
 
-Phase  2  : 13224 unrouted;      REAL time: 14 secs 
+Phase  2  : 13180 unrouted;      REAL time: 15 secs 
 
-Phase  3  : 2063 unrouted;      REAL time: 21 secs 
+Phase  3  : 2250 unrouted;      REAL time: 22 secs 
 
-Phase  4  : 2063 unrouted; (Setup:0, Hold:10701, Component Switching Limit:0)     REAL time: 24 secs 
+Phase  4  : 2250 unrouted; (Setup:0, Hold:11460, Component Switching Limit:0)     REAL time: 25 secs 
 
 Updating file: top_level.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:9393, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:9393, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:9393, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:9393, Component Switching Limit:0)     REAL time: 28 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 28 secs 
-Total REAL time to Router completion: 28 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 29 secs 
+Total REAL time to Router completion: 29 secs 
 Total CPU time to Router completion: 29 secs 
 
 Partition Implementation Status
@@ -90,34 +90,34 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|             clk_vga | BUFGCTRL_X0Y3| No   |  375 |  0.314     |  1.949      |
+|             clk_vga | BUFGCTRL_X0Y3| No   |  374 |  0.386     |  2.019      |
 +---------------------+--------------+------+------+------------+-------------+
-|   ov7670_pclk_BUFGP | BUFGCTRL_X0Y2| No   |  225 |  0.306     |  1.948      |
+|   ov7670_pclk_BUFGP | BUFGCTRL_X0Y2| No   |  225 |  0.365     |  2.018      |
 +---------------------+--------------+------+------+------------+-------------+
-|          clk_camera | BUFGCTRL_X0Y0| No   |   26 |  0.182     |  1.835      |
+|          clk_camera | BUFGCTRL_X0Y0| No   |   28 |  0.107     |  1.835      |
 +---------------------+--------------+------+------+------------+-------------+
 |inst_vga_pll/clkfbou |              |      |      |            |             |
 |               t_buf | BUFGCTRL_X0Y1| No   |    1 |  0.000     |  1.759      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_222_o |         Local|      |    4 |  0.198     |  0.708      |
+|  _vcnt[9]_MUX_222_o |         Local|      |    4 |  0.041     |  0.740      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_420_o |         Local|      |    4 |  0.304     |  0.879      |
+|  _vcnt[9]_MUX_420_o |         Local|      |    4 |  0.475     |  1.122      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/GND_48_ |              |      |      |            |             |
-|  o_GND_48_o_OR_31_o |         Local|      |    2 |  0.174     |  0.705      |
+|  o_GND_48_o_OR_31_o |         Local|      |    2 |  0.205     |  0.755      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/GND_48_ |              |      |      |            |             |
-| o_GND_48_o_OR_152_o |         Local|      |    1 |  0.000     |  0.660      |
+| o_GND_48_o_OR_152_o |         Local|      |    1 |  0.000     |  0.772      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_308_o |         Local|      |    4 |  0.609     |  1.154      |
+|  _vcnt[9]_MUX_308_o |         Local|      |    4 |  0.303     |  0.847      |
 +---------------------+--------------+------+------+------------+-------------+
 | inst_vga_pll/clkin1 |         Local|      |    1 |  0.000     |  1.285      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_534_o |         Local|      |    4 |  0.343     |  0.848      |
+|  _vcnt[9]_MUX_534_o |         Local|      |    4 |  0.521     |  1.173      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -142,12 +142,12 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TS_clk100 = PERIOD TIMEGRP "clk100" 10 ns | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
    HIGH 50%                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_inst_vga_pll_clkout0 = PERIOD TIMEGRP  | SETUP       |    12.300ns|     7.700ns|       0|           0
-  "inst_vga_pll_clkout0" TS_clk100 /        | HOLD        |     0.203ns|            |       0|           0
+  TS_inst_vga_pll_clkout0 = PERIOD TIMEGRP  | SETUP       |    12.511ns|     7.489ns|       0|           0
+  "inst_vga_pll_clkout0" TS_clk100 /        | HOLD        |     0.138ns|            |       0|           0
     0.5 HIGH 50%                            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_inst_vga_pll_clkout1 = PERIOD TIMEGRP  | SETUP       |    21.678ns|    18.322ns|       0|           0
-  "inst_vga_pll_clkout1" TS_clk100 /        | HOLD        |     0.006ns|            |       0|           0
+  TS_inst_vga_pll_clkout1 = PERIOD TIMEGRP  | SETUP       |    21.760ns|    18.240ns|       0|           0
+  "inst_vga_pll_clkout1" TS_clk100 /        | HOLD        |     0.007ns|            |       0|           0
     0.25 HIGH 50%                           |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
 
@@ -162,9 +162,9 @@ Derived Constraints for TS_clk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clk100                      |     10.000ns|      4.000ns|      4.580ns|            0|            0|            0|28778839613512|
-| TS_inst_vga_pll_clkout1       |     40.000ns|     18.322ns|          N/A|            0|            0|28778839609661|            0|
-| TS_inst_vga_pll_clkout0       |     20.000ns|      7.700ns|          N/A|            0|            0|         3851|            0|
+|TS_clk100                      |     10.000ns|      4.000ns|      4.560ns|            0|            0|            0|28778839613528|
+| TS_inst_vga_pll_clkout1       |     40.000ns|     18.240ns|          N/A|            0|            0|28778839609677|            0|
+| TS_inst_vga_pll_clkout0       |     20.000ns|      7.489ns|          N/A|            0|            0|         3851|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -174,10 +174,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 29 secs 
+Total REAL time to PAR completion: 31 secs 
 Total CPU time to PAR completion: 30 secs 
 
-Peak Memory Usage:  724 MB
+Peak Memory Usage:  726 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
