@@ -57,7 +57,12 @@ architecture Behavioral of top_level is
 	PORT(
 		dclk	: IN STD_LOGIC;
 		clr	: IN STD_LOGIC;
-		sumRowin : IN STD_LOGIC_vector(10 downto 0);
+		seg1Count : IN std_logic_vector(4 downto 0);
+		seg2Count : IN std_logic_vector(4 downto 0);
+		seg3Count : IN std_logic_vector(4 downto 0);
+		seg4Count : IN std_logic_vector(4 downto 0);
+		seg5Count : IN std_logic_vector(4 downto 0);
+		seg6Count : IN std_logic_vector(4 downto 0);	
 		hsync	: OUT STD_LOGIC;
 		vsync : OUT STD_LOGIC;
 		red : OUT STD_LOGIC_vector(3 downto 0);
@@ -93,7 +98,12 @@ architecture Behavioral of top_level is
 		vcnt : IN std_logic_vector(9 downto 0);
 		pixelIn : IN std_logic_vector(11 downto 0);
 		pixelOut : OUT std_logic_vector(11 downto 0);
-		sumRowOut : OUT std_logic_vector(10 downto 0)
+		seg1Count : OUT std_logic_vector(4 downto 0);
+		seg2Count : OUT std_logic_vector(4 downto 0);
+		seg3Count : OUT std_logic_vector(4 downto 0);
+		seg4Count : OUT std_logic_vector(4 downto 0);
+		seg5Count : OUT std_logic_vector(4 downto 0);
+		seg6Count : OUT std_logic_vector(4 downto 0)		
 		);
 	END COMPONENT;
 	
@@ -313,13 +323,23 @@ inst_vga_pll : vga_pll_zedboard
 		vcnt			=> vcnt,
 		pixelIn		=> windowedData,
 		pixelOut		=> segmentData,
-		sumRowOut	=> sumRowOutz
+		seg1Count => seg1c,
+		seg2Count => seg2c,
+		seg3Count => seg3c,
+		seg4Count => seg4c,
+		seg5Count => seg5c,
+		seg6Count => seg6c
 	);
 	
 	Inst_VGA2 : vga640x480 PORT MAP(
 		dclk	=>	clk_vga,
 		clr	=>	resend,
-		sumRowin => sumRowOutz,
+		seg1Count => seg1c,
+		seg2Count => seg2c,
+		seg3Count => seg3c,
+		seg4Count => seg4c,
+		seg5Count => seg5c,
+		seg6Count => seg6c,
 		hsync	=>	hsync2,
 		vsync =>	vsync2,
 		red 	=>	red2,

@@ -21,7 +21,12 @@
 module vga640x480(
 	input wire dclk,			//pixel clock: 25MHz
 	input wire clr,			//asynchronous reset
-	input wire [10:0] sumRowin,
+	input wire [4:0] seg1countin,
+	input wire [4:0] seg2countin,
+	input wire [4:0] seg3countin,
+	input wire [4:0] seg4countin,
+	input wire [4:0] seg5countin,
+	input wire [4:0] seg6countin,
 	output wire hsync,		//horizontal sync out
 	output wire vsync,		//vertical sync out
 	output reg [3:0] red,	//red vga output
@@ -104,7 +109,7 @@ begin
 		// Segment 1 Area
 		if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(sumRowin > 11'd6) begin
+			if(seg1countin > 5'd6) begin
 				// Draw a 4
 				if (hc >= (hbp+50) && hc < (hbp+75) && vc >= (vbp+150) && vc < (vbp+175)) begin
 					red = 4'b0000;
@@ -166,41 +171,299 @@ begin
 		// Segment 2 Area
 		else if (hc >= (hbp+140) && hc < (hbp+215) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			red =4'b0000;
-			green =4'b1111;
-			blue =4'b0000;
+			if(seg2countin > 5'd6) begin
+				// Draw a 4
+				if (hc >= (hbp+50+90) && hc < (hbp+75+90) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50+90) && hc < (hbp+100+90) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+100+90) && hc < (hbp+125+90) && vc >= (vbp+150) && vc < (vbp+250)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+				
+			end
+			else begin
+				// Draw a 2
+				if (hc >= (hbp+50+90) && hc < (hbp+125+90) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+100+90) && hc < (hbp+125+90) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50+90) && hc < (hbp+125+90) && vc >= (vbp+200) && vc < (vbp+225)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50+90) && hc < (hbp+75+90) && vc >= (vbp+225) && vc < (vbp+250)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+50+90) && hc < (hbp+125+90) && vc >= (vbp+250) && vc < (vbp+275)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
 		end
 		
 		// Segment 3 Area
 		else if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			red =4'b0000;
-			green =4'b1111;
-			blue =4'b0000;
+			if(seg3countin > 5'd6) begin
+			// Draw a 1
+				if (hc >= (hbp+250) && hc < (hbp+275) && vc >= (vbp+150) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+				
+			end
+			else begin
+				// Draw a 8
+				if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+230) && hc < (hbp+250) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+285) && hc < (hbp+305) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+250) && hc < (hbp+305) && vc >= (vbp+200) && vc < (vbp+220)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+220) && vc < (vbp+240)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+230) && hc < (hbp+250) && vc >= (vbp+240) && vc < (vbp+280)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+285) && hc < (hbp+305) && vc >= (vbp+240) && vc < (vbp+280)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+280) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
 		end
 		
 		// Segment 4 Area
 		else if (hc >= (hbp+335) && hc < (hbp+410) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			red =4'b0000;
-			green =4'b1111;
-			blue =4'b0000;
+			if(seg4countin > 5'd6) begin
+			// Draw an E
+				if (hc >= (hbp+335) && hc < (hbp+410) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335) && hc < (hbp+360) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335) && hc < (hbp+360) && vc >= (vbp+210) && vc < (vbp+235)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335) && hc < (hbp+360) && vc >= (vbp+275) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
+			else begin
+				// Draw an M
+				if (hc >= (hbp+335) && hc < (hbp+410) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335) && hc < (hbp+360) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+375) && hc < (hbp+385) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+395) && hc < (hbp+410) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
 		end
 		
 		// Segment 5 Area
 		else if (hc >= (hbp+425) && hc < (hbp+500) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			red =4'b0000;
-			green =4'b1111;
-			blue =4'b0000;
+			if(seg5countin > 5'd6) begin
+			// Draw an E
+				if (hc >= (hbp+335+90) && hc < (hbp+410+90) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335+90) && hc < (hbp+360+90) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335+90) && hc < (hbp+360+90) && vc >= (vbp+210) && vc < (vbp+235)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335+90) && hc < (hbp+360+90) && vc >= (vbp+275) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
+			else begin
+				// Draw an M
+				if (hc >= (hbp+335+90) && hc < (hbp+410+90) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+335+90) && hc < (hbp+360+90) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+375+90) && hc < (hbp+385+90) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+395+90) && hc < (hbp+410+90) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
 		end
 		
 		// Segment 6 Area
 		else if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			red =4'b0000;
-			green =4'b1111;
-			blue =4'b0000;
+			if(seg6countin > 5'd6) begin
+			// Draw a 1
+				if (hc >= (hbp+250+180) && hc < (hbp+275+180) && vc >= (vbp+150) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+				
+			end
+			else begin
+				// Draw a 9
+				if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+150) && vc < (vbp+175)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+515) && hc < (hbp+535) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+575) && hc < (hbp+590) && vc >= (vbp+175) && vc < (vbp+300)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+175) && vc < (vbp+200)) begin
+					red = 4'b0000;
+					green = 4'b1111;
+					blue = 4'b0000;
+				end
+				else begin
+					red = 4'b0000;
+					green = 4'b0000;
+					blue = 4'b0000;
+				end
+			end
 		end
 		
 		// we're outside our range so display black
