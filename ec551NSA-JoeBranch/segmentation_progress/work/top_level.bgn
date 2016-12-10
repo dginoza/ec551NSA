@@ -5,7 +5,7 @@ D:\Xilinx\14.7\ISE_DS\ISE\.
    "top_level" is an NCD, version 3.2, device xc7z020, package clg484, speed -1
 Opened constraints file top_level.pcf.
 
-Tue Dec 06 12:56:03 2016
+Sat Dec 10 15:38:37 2016
 
 D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g Binary:no -g CRC:Enable -g ProgPin:PullUp -g InitPin:Pullup -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g OverTempPowerDown:Disable -g USR_ACCESS:None -g JTAG_XADC:Enable -g DCIUpdateMode:AsRequired -g StartUpClk:JtagClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:Auto -g Security:None -g ICAP_select:Auto -g ReadBack -g DonePipe:Yes -g DriveDone:No top_level.ncd 
 
@@ -99,32 +99,132 @@ WARNING:PhysDesignRules:2500 - This design does not have a PS7 block.
    Instantiate the PS7 block in order to ensure proper fabric tie-offs and
    correct operation of the processing_system7.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/vcnt[9]_vcnt[9]_MUX_222_o is sourced by a combinatorial pin.
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_4703_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/vcnt[9]_vcnt[9]_MUX_420_o is sourced by a combinatorial pin.
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_4001_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/GND_48_o_GND_48_o_OR_31_o is sourced by a combinatorial pin.
+   Inst_segment/GND_48_o_GND_48_o_OR_407_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/GND_48_o_GND_48_o_OR_152_o is sourced by a combinatorial pin.
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_965_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/vcnt[9]_vcnt[9]_MUX_308_o is sourced by a combinatorial pin.
+   Inst_segment/GND_48_o_GND_48_o_OR_362_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   Inst_segment/vcnt[9]_vcnt[9]_MUX_534_o is sourced by a combinatorial pin.
+   Inst_segment/GND_48_o_GND_48_o_OR_437_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/GND_48_o_GND_48_o_OR_392_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/GND_48_o_GND_48_o_OR_377_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_655_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_5855_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/GND_48_o_GND_48_o_OR_422_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_401_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_4339_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_2485_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_1753_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_1331_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_5461_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_209_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_3047_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_5069_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_1529_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_2231_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_515_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_1979_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_3665_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/GND_48_o_GND_48_o_OR_450_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_797_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_289_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_1135_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_2765_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Inst_segment/vcnt[9]_vcnt[9]_MUX_3355_o is sourced by a combinatorial pin.
    This is not good design practice. Use the CE pin to control the loading of
    data into the flip-flop.
 WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
-   ProtoComp136.PULL is set but the tri state is not configured. 
-DRC detected 0 errors and 8 warnings.  Please see the previously displayed
+   ProtoComp345.PULL is set but the tri state is not configured. 
+DRC detected 0 errors and 33 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "top_level.bit".

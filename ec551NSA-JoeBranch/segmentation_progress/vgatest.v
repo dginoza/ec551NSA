@@ -109,7 +109,7 @@ begin
 		// Segment 1 Area
 		if (hc >= (hbp+50) && hc < (hbp+125) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(seg1countin > 5'd6) begin
+			if(seg1countin > 5'd5) begin
 				// Draw a 4
 				if (hc >= (hbp+50) && hc < (hbp+75) && vc >= (vbp+150) && vc < (vbp+175)) begin
 					red = 4'b0000;
@@ -171,7 +171,7 @@ begin
 		// Segment 2 Area
 		else if (hc >= (hbp+140) && hc < (hbp+215) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(seg2countin > 5'd6) begin
+			if(seg2countin > 5'd5) begin
 				// Draw a 4
 				if (hc >= (hbp+50+90) && hc < (hbp+75+90) && vc >= (vbp+150) && vc < (vbp+175)) begin
 					red = 4'b0000;
@@ -233,7 +233,7 @@ begin
 		// Segment 3 Area
 		else if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(seg3countin > 5'd6) begin
+			if(seg3countin > 5'd5) begin
 			// Draw a 1
 				if (hc >= (hbp+250) && hc < (hbp+275) && vc >= (vbp+150) && vc < (vbp+300)) begin
 					red = 4'b0000;
@@ -264,7 +264,7 @@ begin
 					green = 4'b1111;
 					blue = 4'b0000;
 				end
-				else if (hc >= (hbp+250) && hc < (hbp+305) && vc >= (vbp+200) && vc < (vbp+220)) begin
+				else if (hc >= (hbp+230) && hc < (hbp+305) && vc >= (vbp+200) && vc < (vbp+220)) begin
 					red = 4'b0000;
 					green = 4'b1111;
 					blue = 4'b0000;
@@ -300,7 +300,7 @@ begin
 		// Segment 4 Area
 		else if (hc >= (hbp+335) && hc < (hbp+410) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(seg4countin > 5'd6) begin
+			if(seg4countin > 5'd5) begin
 			// Draw an E
 				if (hc >= (hbp+335) && hc < (hbp+410) && vc >= (vbp+150) && vc < (vbp+175)) begin
 					red = 4'b0000;
@@ -361,7 +361,7 @@ begin
 		// Segment 5 Area
 		else if (hc >= (hbp+425) && hc < (hbp+500) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(seg5countin > 5'd6) begin
+			if(seg5countin > 5'd5) begin
 			// Draw an E
 				if (hc >= (hbp+335+90) && hc < (hbp+410+90) && vc >= (vbp+150) && vc < (vbp+175)) begin
 					red = 4'b0000;
@@ -422,9 +422,9 @@ begin
 		// Segment 6 Area
 		else if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+150) && vc < (vbp+300))
 		begin
-			if(seg6countin > 5'd6) begin
+			if(seg6countin > 5'd5) begin
 			// Draw a 1
-				if (hc >= (hbp+250+180) && hc < (hbp+275+180) && vc >= (vbp+150) && vc < (vbp+300)) begin
+				if (hc >= (hbp+575) && hc < (hbp+590) && vc >= (vbp+150) && vc < (vbp+300)) begin
 					red = 4'b0000;
 					green = 4'b1111;
 					blue = 4'b0000;
@@ -453,7 +453,7 @@ begin
 					green = 4'b1111;
 					blue = 4'b0000;
 				end
-				else if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+175) && vc < (vbp+200)) begin
+				else if (hc >= (hbp+515) && hc < (hbp+590) && vc >= (vbp+200) && vc < (vbp+225)) begin
 					red = 4'b0000;
 					green = 4'b1111;
 					blue = 4'b0000;

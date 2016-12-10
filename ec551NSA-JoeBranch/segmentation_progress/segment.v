@@ -7,12 +7,6 @@ module segment(input [9:0] hcnt, input [9:0] vcnt, input [11:0] pixelIn, output 
 	 
 	 reg [11:0] pixOut;
 	 
-	 reg [3:0] s_1count;
-	 reg [3:0] s_2count;
-	 reg [3:0] s_3count;
-	 reg [3:0] s_4count;
-	 reg [3:0] s_5count;
-	 reg [3:0] s_6count;
 	 
 	 reg [13:0] quad11; //max 2^14
 	 reg [13:0] quad12;
@@ -45,50 +39,47 @@ module segment(input [9:0] hcnt, input [9:0] vcnt, input [11:0] pixelIn, output 
 	 reg [13:0] quad64;
 	 
 	 // Thresholds
-	 parameter d4_q1 = 14'd50; // closer to 50 than 100?
-	 parameter d4_q2 = 14'd50;
-	 parameter d4_q3 = 14'd50;
-	 parameter d4_q4 = 14'd50;
+	 parameter d4_q1 = 14'd202; // closer to 50 than 100?
+	 parameter d4_q2 = 14'd227;
+	 parameter d4_q3 = 14'd152;
+	 parameter d4_q4 = 14'd222;
 	 
-	 parameter d2_q1 = 14'd100;
-	 parameter d2_q2 = 14'd100;
-	 parameter d2_q3 = 14'd100;
-	 parameter d2_q4 = 14'd100;
+	 parameter d2_q1 = 14'd297;
+	 parameter d2_q2 = 14'd275;
+	 parameter d2_q3 = 14'd287;
+	 parameter d2_q4 = 14'd225;
 	 
-	 parameter d9_q1 = 14'd100;
-	 parameter d9_q2 = 14'd100;
-	 parameter d9_q3 = 14'd100;
-	 parameter d9_q4 = 14'd100;
+	 parameter d9_q1 = 14'd150;
+	 parameter d9_q2 = 14'd50;
+	 parameter d9_q3 = 14'd30;
+	 parameter d9_q4 = 14'd50;
 	 
-	 parameter d1_q1 = 14'd100;
-	 parameter d1_q2 = 14'd100;
-	 parameter d1_q3 = 14'd100;
-	 parameter d1_q4 = 14'd100;
+	 parameter d8_q1 = 14'd100;
+	 parameter d8_q2 = 14'd140;
+	 parameter d8_q3 = 14'd200;
+	 parameter d8_q4 = 14'd100;
 	 
-	 parameter dE_q1 = 14'd100;
-	 parameter dE_q2 = 14'd100;
-	 parameter dE_q3 = 14'd100;
-	 parameter dE_q4 = 14'd100;
+	 parameter d1_q1 = 14'd50;
+	 parameter d1_q2 = 14'd75;
+	 parameter d1_q3 = 14'd50;
+	 parameter d1_q4 = 14'd25;
 	 
-	 parameter dM_q1 = 14'd100;
-	 parameter dM_q2 = 14'd100;
-	 parameter dM_q3 = 14'd100;
-	 parameter dM_q4 = 14'd100;
+	 parameter dE_q1 = 14'd50;
+	 parameter dE_q2 = 14'd50;
+	 parameter dE_q3 = 14'd75;
+	 parameter dE_q4 = 14'd50;
 	 
+	 parameter dM_q1 = 14'd200;
+	 parameter dM_q2 = 14'd200;
+	 parameter dM_q3 = 14'd250;
+	 parameter dM_q4 = 14'd200;
 	 
-	 assign seg1Count = s_1count;
-	 assign seg2Count = s_2count;
-	 assign seg3Count = s_3count;
-	 assign seg4Count = s_4count;
-	 assign seg5Count = s_5count;
-	 assign seg6Count = s_6count;
 	 
 	 assign pixelOut = pixOut;
 	 
 	 
 	 always @ (hcnt or vcnt or quad11 or quad21 or quad12 or quad22 or quad13 or quad23 or quad14 or quad24) begin
 		 if (vcnt == 10'd0) begin
-			d4_1count = 4'd0;
 			quad11 = 14'd0;
 			quad12 = 14'd0;
 			quad13 = 14'd0;

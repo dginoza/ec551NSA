@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-USER-PC::  Tue Dec 06 12:55:03 2016
+USER-PC::  Sat Dec 10 15:37:40 2016
 
 par -w -intstyle ise -ol high -mt off top_level_map.ncd top_level.ncd
 top_level.pcf 
@@ -33,46 +33,46 @@ Device Utilization Summary:
    Number of OLOGICE2s                       1 out of 200     1%
    Number of RAMB18E1s                       2 out of 280     1%
    Number of RAMB36E1s                     103 out of 140    73%
-   Number of Slices                        538 out of 13300   4%
-   Number of Slice Registers               944 out of 106400  1%
+   Number of Slices                       1176 out of 13300   8%
+   Number of Slice Registers              1250 out of 106400  1%
       Number used as Flip Flops            880
-      Number used as Latches                64
+      Number used as Latches               370
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                   1370 out of 53200   2%
-   Number of Slice LUT-Flip Flop pairs    1524 out of 53200   2%
+   Number of Slice LUTS                   2828 out of 53200   5%
+   Number of Slice LUT-Flip Flop pairs    3406 out of 53200   6%
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 13 secs 
-Finished initial Timing Analysis.  REAL time: 14 secs 
+Starting initial Timing Analysis.  REAL time: 12 secs 
+Finished initial Timing Analysis.  REAL time: 12 secs 
 
 Starting Router
 
 
-Phase  1  : 27064 unrouted;      REAL time: 15 secs 
+Phase  1  : 34613 unrouted;      REAL time: 13 secs 
 
-Phase  2  : 13180 unrouted;      REAL time: 15 secs 
+Phase  2  : 19720 unrouted;      REAL time: 14 secs 
 
-Phase  3  : 2250 unrouted;      REAL time: 22 secs 
+Phase  3  : 4311 unrouted;      REAL time: 21 secs 
 
-Phase  4  : 2250 unrouted; (Setup:0, Hold:11460, Component Switching Limit:0)     REAL time: 25 secs 
+Phase  4  : 4311 unrouted; (Setup:0, Hold:10284, Component Switching Limit:0)     REAL time: 23 secs 
 
 Updating file: top_level.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:10170, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:10170, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:10170, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:10148, Component Switching Limit:0)     REAL time: 29 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:10170, Component Switching Limit:0)     REAL time: 27 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 29 secs 
-Total REAL time to Router completion: 29 secs 
-Total CPU time to Router completion: 29 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 28 secs 
+Total REAL time to Router completion: 28 secs 
+Total CPU time to Router completion: 28 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -90,34 +90,109 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|             clk_vga | BUFGCTRL_X0Y3| No   |  374 |  0.386     |  2.019      |
+|             clk_vga | BUFGCTRL_X0Y3| No   |  432 |  0.388     |  2.023      |
 +---------------------+--------------+------+------+------------+-------------+
-|   ov7670_pclk_BUFGP | BUFGCTRL_X0Y2| No   |  225 |  0.365     |  2.018      |
+|          clk_camera | BUFGCTRL_X0Y0| No   |   27 |  0.136     |  1.835      |
 +---------------------+--------------+------+------+------------+-------------+
-|          clk_camera | BUFGCTRL_X0Y0| No   |   28 |  0.107     |  1.835      |
+|   ov7670_pclk_BUFGP | BUFGCTRL_X0Y2| No   |  226 |  0.379     |  2.022      |
 +---------------------+--------------+------+------+------------+-------------+
 |inst_vga_pll/clkfbou |              |      |      |            |             |
 |               t_buf | BUFGCTRL_X0Y1| No   |    1 |  0.000     |  1.759      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_222_o |         Local|      |    4 |  0.041     |  0.740      |
+| _vcnt[9]_MUX_4703_o |         Local|      |    7 |  1.055     |  2.576      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_420_o |         Local|      |    4 |  0.475     |  1.122      |
+| _vcnt[9]_MUX_4001_o |         Local|      |    7 |  0.579     |  1.566      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/GND_48_ |              |      |      |            |             |
-|  o_GND_48_o_OR_31_o |         Local|      |    2 |  0.205     |  0.755      |
-+---------------------+--------------+------+------+------------+-------------+
-|Inst_segment/GND_48_ |              |      |      |            |             |
-| o_GND_48_o_OR_152_o |         Local|      |    1 |  0.000     |  0.772      |
+| o_GND_48_o_OR_407_o |         Local|      |    3 |  0.221     |  1.211      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_308_o |         Local|      |    4 |  0.303     |  0.847      |
+|  _vcnt[9]_MUX_965_o |         Local|      |    4 |  0.149     |  0.527      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/GND_48_ |              |      |      |            |             |
+| o_GND_48_o_OR_362_o |         Local|      |    3 |  0.255     |  0.899      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/GND_48_ |              |      |      |            |             |
+| o_GND_48_o_OR_437_o |         Local|      |    3 |  0.159     |  0.773      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/GND_48_ |              |      |      |            |             |
+| o_GND_48_o_OR_392_o |         Local|      |    2 |  0.328     |  0.865      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/GND_48_ |              |      |      |            |             |
+| o_GND_48_o_OR_377_o |         Local|      |    3 |  0.412     |  0.950      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+|  _vcnt[9]_MUX_655_o |         Local|      |    4 |  0.164     |  1.364      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_5855_o |         Local|      |    7 |  0.691     |  1.573      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/GND_48_ |              |      |      |            |             |
+| o_GND_48_o_OR_422_o |         Local|      |    3 |  0.290     |  0.689      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+|  _vcnt[9]_MUX_401_o |         Local|      |    4 |  0.600     |  1.108      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_4339_o |         Local|      |    7 |  0.452     |  2.313      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_2485_o |         Local|      |    4 |  0.626     |  1.456      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_1753_o |         Local|      |    4 |  0.683     |  1.913      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_1331_o |         Local|      |    4 |  0.446     |  0.785      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_5461_o |         Local|      |    7 |  0.581     |  2.368      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+|  _vcnt[9]_MUX_209_o |         Local|      |    4 |  0.567     |  0.933      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_3047_o |         Local|      |    4 |  0.453     |  1.303      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_5069_o |         Local|      |    4 |  0.747     |  1.853      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_1529_o |         Local|      |    4 |  0.152     |  1.110      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_2231_o |         Local|      |    4 |  0.443     |  1.526      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+|  _vcnt[9]_MUX_515_o |         Local|      |    4 |  0.444     |  1.154      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_1979_o |         Local|      |    4 |  0.456     |  1.491      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_3665_o |         Local|      |    4 |  0.609     |  2.372      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/GND_48_ |              |      |      |            |             |
+| o_GND_48_o_OR_450_o |         Local|      |    2 |  0.040     |  0.538      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+|  _vcnt[9]_MUX_797_o |         Local|      |    4 |  0.291     |  1.026      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+|  _vcnt[9]_MUX_289_o |         Local|      |    4 |  0.279     |  1.013      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_1135_o |         Local|      |    4 |  0.292     |  0.642      |
 +---------------------+--------------+------+------+------------+-------------+
 | inst_vga_pll/clkin1 |         Local|      |    1 |  0.000     |  1.285      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_segment/vcnt[9] |              |      |      |            |             |
-|  _vcnt[9]_MUX_534_o |         Local|      |    4 |  0.521     |  1.173      |
+| _vcnt[9]_MUX_2765_o |         Local|      |    4 |  0.295     |  1.684      |
++---------------------+--------------+------+------+------------+-------------+
+|Inst_segment/vcnt[9] |              |      |      |            |             |
+| _vcnt[9]_MUX_3355_o |         Local|      |    4 |  0.230     |  2.082      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -142,12 +217,12 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TS_clk100 = PERIOD TIMEGRP "clk100" 10 ns | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
    HIGH 50%                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_inst_vga_pll_clkout0 = PERIOD TIMEGRP  | SETUP       |    12.511ns|     7.489ns|       0|           0
-  "inst_vga_pll_clkout0" TS_clk100 /        | HOLD        |     0.138ns|            |       0|           0
+  TS_inst_vga_pll_clkout0 = PERIOD TIMEGRP  | SETUP       |    12.382ns|     7.618ns|       0|           0
+  "inst_vga_pll_clkout0" TS_clk100 /        | HOLD        |     0.203ns|            |       0|           0
     0.5 HIGH 50%                            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_inst_vga_pll_clkout1 = PERIOD TIMEGRP  | SETUP       |    21.760ns|    18.240ns|       0|           0
-  "inst_vga_pll_clkout1" TS_clk100 /        | HOLD        |     0.007ns|            |       0|           0
+  TS_inst_vga_pll_clkout1 = PERIOD TIMEGRP  | SETUP       |    21.410ns|    18.590ns|       0|           0
+  "inst_vga_pll_clkout1" TS_clk100 /        | HOLD        |     0.019ns|            |       0|           0
     0.25 HIGH 50%                           |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
 
@@ -162,9 +237,9 @@ Derived Constraints for TS_clk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clk100                      |     10.000ns|      4.000ns|      4.560ns|            0|            0|            0|28778839613528|
-| TS_inst_vga_pll_clkout1       |     40.000ns|     18.240ns|          N/A|            0|            0|28778839609677|            0|
-| TS_inst_vga_pll_clkout0       |     20.000ns|      7.489ns|          N/A|            0|            0|         3851|            0|
+|TS_clk100                      |     10.000ns|      4.000ns|      4.648ns|            0|            0|            0|28778839613510|
+| TS_inst_vga_pll_clkout1       |     40.000ns|     18.590ns|          N/A|            0|            0|28778839609659|            0|
+| TS_inst_vga_pll_clkout0       |     20.000ns|      7.618ns|          N/A|            0|            0|         3851|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -174,10 +249,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 31 secs 
-Total CPU time to PAR completion: 30 secs 
+Total REAL time to PAR completion: 29 secs 
+Total CPU time to PAR completion: 29 secs 
 
-Peak Memory Usage:  726 MB
+Peak Memory Usage:  743 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
