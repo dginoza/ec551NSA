@@ -1,3 +1,0 @@
-verilog isim_temp "Dff.v"
-verilog isim_temp "nFIFO.v"
-verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"
