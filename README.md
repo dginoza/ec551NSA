@@ -22,9 +22,8 @@ The bit file, when generated, will be in the /work folder.
 Note: The IP core for the frame buffer may not generate without ISE 14.7 (such as on the computers in PHO115)
 
 ### Project Files Layout
-Top
-	- Main Work Branch -> ec551_fpga_licenseplate_reader - project folder of current progress including filtering, segmentation, and "ocr"
-	- Clean No Segment Code - project folder of just the filter with no other operations
-	- Edge Detection - a video of our edge detection filter at work
-	- SegmentationOCRprogress - a video of our segmentation and "ocr" (before we implemented all 6 segments) 
-	- TeamNSA_Fa16_EC551_Project.pptx - our presentation
+- Main Work Branch -> ec551_fpga_licenseplate_reader - project folder of current progress including filtering, segmentation, and "ocr"
+- Clean No Segment Code - project folder of just the filter with no other operations
+- Edge Detection - a video of our edge detection filter at work
+- SegmentationOCRprogress - a video of our segmentation and "ocr" (before we implemented all 6 segments) 
+- TeamNSA_Fa16_EC551_Project.pptx - our presentation
