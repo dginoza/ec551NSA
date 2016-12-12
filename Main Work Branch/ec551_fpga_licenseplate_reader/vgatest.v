@@ -15,7 +15,7 @@
 //
 // Revision: 
 // Revision 0.01 - File Created
-// Additional Comments:  https://www.element14.com/community/thread/23394/l/draw-vga-color-bars-with-fpga-in-verilog?displayFullThread=true
+// based on code from:  https://www.element14.com/community/thread/23394/l/draw-vga-color-bars-with-fpga-in-verilog?displayFullThread=true
 //
 //////////////////////////////////////////////////////////////////////////////////
 module vga640x480(
