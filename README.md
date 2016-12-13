@@ -41,7 +41,7 @@ D4------JA4
 
 D5------JA8
 
--B PMOD connector
+- B PMOD connector
 
 D6------JB1
 
