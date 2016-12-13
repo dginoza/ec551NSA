@@ -25,22 +25,39 @@ Connecting the camera:
 Use A and B PMOD connectors 
 
 PWDN 	JA1
+
 RESET 	JA5
+
 D0		JA2
+
 D1		JA6
+
 D2		JA3
+
 D3		JA7
+
 D4		JA4
+
 D5		JA8
 
+
+
 D6		JB1
+
 D7		JB5
+
 XCLK 	JB2
+
 PCLK 	JB6
+
 HREF 	JB3
+
 VSYNC 	JB7
+
 SIOD 	JB4
+
 SIOC 	JB8
+
 
 ### Project Files Layout
 - Main Work Branch -> ec551_fpga_licenseplate_reader - project folder of current progress including filtering, segmentation, and "ocr"
@@ -71,5 +88,5 @@ vhd files are based on http://hamsterworks.co.nz/mediawiki/index.php/Zedboard_OV
 	- zedboard.ucf: All the pinouts/ins
 
 IP Cores:
-	- inst_vga_pll: clock divider
-	- xilinx_frame_buffer: RAM block memory to store frame
+- inst_vga_pll: clock divider
+- xilinx_frame_buffer: RAM block memory to store frame
