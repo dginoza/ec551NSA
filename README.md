@@ -22,41 +22,42 @@ The bit file, when generated, will be in the /work folder.
 Note: The IP core for the frame buffer may not generate without ISE 14.7 (such as on the computers in PHO115)
 
 Connecting the camera:
-Use A and B PMOD connectors 
 
-PWDN 	JA1
+- A PMOD connector
 
-RESET 	JA5
+PWDN------JA1
 
-D0		JA2
+RESET------JA5
 
-D1		JA6
+D0------JA2
 
-D2		JA3
+D1------JA6
 
-D3		JA7
+D2------JA3
 
-D4		JA4
+D3------JA7
 
-D5		JA8
+D4------JA4
 
+D5------JA8
 
+-B PMOD connector
 
-D6		JB1
+D6------JB1
 
-D7		JB5
+D7------JB5
 
-XCLK 	JB2
+XCLK------JB2
 
-PCLK 	JB6
+PCLK------JB6
 
-HREF 	JB3
+HREF------JB3
 
-VSYNC 	JB7
+VSYNC------JB7
 
-SIOD 	JB4
+SIOD------JB4
 
-SIOC 	JB8
+SIOC------JB8
 
 
 ### Project Files Layout
