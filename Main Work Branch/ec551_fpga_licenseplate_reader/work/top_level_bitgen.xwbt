@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\work\top_level.ncd
-OUTFILE=D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\work\top_level.bit
+INFILE=D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\work\top_level.ncd
+OUTFILE=D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\work\top_level.bit
 FAMILY=Zynq
 PART=xc7z020-1clg484
-WORKINGDIR=D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\work
+WORKINGDIR=D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\work
 LICENSE=WebPack
 USER_INFO=211260181_0_0_838

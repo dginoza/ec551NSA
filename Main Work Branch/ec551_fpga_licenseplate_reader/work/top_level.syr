@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: top_level.prj
 
@@ -108,51 +108,51 @@ Cores Search Directories           : {"../ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\Dff.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\Dff.v" into library work
 Parsing module <Dff>.
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\nFIFO.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\nFIFO.v" into library work
 Parsing module <nFIFO>.
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vgatest.v" into library work
 Parsing module <vga640x480>.
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\sys_array.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\sys_array.v" into library work
 Parsing module <sys_array>.
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" into library work
 Parsing module <segment>.
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\mux.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\mux.v" into library work
 Parsing module <mux>.
-Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\count_pixels2.v" into library work
+Analyzing Verilog file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\count_pixels2.v" into library work
 Parsing module <count_pixels_two>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ipcore_dir\xilinx_frame_buffer.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ipcore_dir\xilinx_frame_buffer.vhd" into library work
 Parsing entity <xilinx_frame_buffer>.
 Parsing architecture <xilinx_frame_buffer_a> of entity <xilinx_frame_buffer>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ipcore_dir\vga_pll_zedboard.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ipcore_dir\vga_pll_zedboard.vhd" into library work
 Parsing entity <vga_pll_zedboard>.
 Parsing architecture <xilinx> of entity <vga_pll_zedboard>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\i3c2.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\i3c2.vhd" into library work
 Parsing entity <i3c2>.
 Parsing architecture <Behavioral> of entity <i3c2>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vga.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vga.vhd" into library work
 Parsing entity <VGA>.
 Parsing architecture <Behavioral> of entity <vga>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\RGB.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\RGB.vhd" into library work
 Parsing entity <RGB>.
 Parsing architecture <Behavioral> of entity <rgb>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd" into library work
 Parsing entity <ov7670_controller>.
 Parsing architecture <Behavioral> of entity <ov7670_controller>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_capture.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_capture.vhd" into library work
 Parsing entity <ov7670_capture>.
 Parsing architecture <Behavioral> of entity <ov7670_capture>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\frame_buffer.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\frame_buffer.vhd" into library work
 Parsing entity <frame_buffer>.
 Parsing architecture <SYN> of entity <frame_buffer>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\debounce.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\debounce.vhd" into library work
 Parsing entity <debounce>.
 Parsing architecture <Behavioral> of entity <debounce>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\address_Generator.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\address_Generator.vhd" into library work
 Parsing entity <Address_Generator>.
 Parsing architecture <Behavioral> of entity <address_generator>.
-Parsing VHDL file "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\top_level.vhd" into library work
+Parsing VHDL file "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\top_level.vhd" into library work
 Parsing entity <top_level>.
 Parsing architecture <Behavioral> of entity <top_level>.
 
@@ -170,105 +170,105 @@ Elaborating module <sys_array>.
 Elaborating module <Dff>.
 
 Elaborating module <nFIFO(fifosize=636)>.
-WARNING:HDLCompiler:634 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\sys_array.v" Line 83: Net <reset> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\sys_array.v" Line 83: Net <reset> does not have a driver.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module count_pixels_two
 
 Elaborating module <count_pixels_two>.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\count_pixels2.v" Line 36: Signal <reset> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\count_pixels2.v" Line 56: Signal <pixel_count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\count_pixels2.v" Line 36: Signal <reset> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\count_pixels2.v" Line 56: Signal <pixel_count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 Back to vhdl to continue elaboration
 
 Elaborating entity <VGA> (architecture <Behavioral>) from library <work>.
 Going to verilog side to elaborate module segment
 
 Elaborating module <segment(d4_q1=202,d4_q2=227,d4_q3=152,d4_q4=222,d2_q1=297,d2_q2=275,d2_q3=287,d2_q4=225,d9_q1=150,d9_q2=50,d9_q3=30,d9_q4=50,d8_q1=100,d8_q2=140,d8_q3=200,d8_q4=100,d1_q1=50,d1_q2=75,d1_q3=50,d1_q4=25,dE_q1=50,dE_q2=50,dE_q3=75,dE_q4=50,dM_q1=200,dM_q2=200,dM_q3=250,dM_q4=200)>.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 116: Signal <seg1Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 133: Signal <seg2Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 150: Signal <seg3Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 167: Signal <seg4Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 184: Signal <seg5Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 201: Signal <seg6Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 222: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 223: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 225: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 231: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 232: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 234: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 240: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 241: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 243: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 248: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 249: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 251: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 256: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 257: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 259: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 263: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 264: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 266: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 271: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 272: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 274: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 278: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 279: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 281: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 286: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 287: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 289: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 293: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 294: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 296: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 301: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 302: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 304: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 308: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 309: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 311: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 323: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 324: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 325: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 329: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 330: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 331: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 336: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 337: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 338: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 342: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 343: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 344: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 348: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 349: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 350: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 353: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 354: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 355: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 359: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 360: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 361: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 364: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 365: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 366: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 370: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 371: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 372: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 375: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 376: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 377: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 381: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 382: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 383: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 386: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 387: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v" Line 388: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 116: Signal <seg1Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 133: Signal <seg2Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 150: Signal <seg3Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 167: Signal <seg4Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 184: Signal <seg5Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 201: Signal <seg6Count> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 222: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 223: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 225: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 231: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 232: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 234: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 240: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 241: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 243: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 248: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 249: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 251: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 256: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 257: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 259: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 263: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 264: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 266: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 271: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 272: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 274: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 278: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 279: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 281: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 286: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 287: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 289: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 293: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 294: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 296: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 301: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 302: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 304: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 308: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 309: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 311: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 323: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 324: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 325: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 329: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 330: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 331: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 336: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 337: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 338: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 342: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 343: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 344: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 348: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 349: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 350: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 353: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 354: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 355: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 359: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 360: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 361: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 364: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 365: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 366: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 370: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 371: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 372: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 375: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 376: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 377: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 381: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 382: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 383: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 386: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 387: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v" Line 388: Signal <pixelIn> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module vga640x480
 
 Elaborating module <vga640x480(hpixels=800,vlines=521,hpulse=96,vpulse=2,hbp=144,hfp=784,vbp=31,vfp=511)>.
-WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v" Line 72: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v" Line 81: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v" Line 93: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v" Line 94: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vgatest.v" Line 72: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vgatest.v" Line 81: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vgatest.v" Line 93: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vgatest.v" Line 94: Result of 32-bit expression is truncated to fit in 1-bit target.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module mux
 
@@ -280,7 +280,7 @@ Elaborating entity <debounce> (architecture <Behavioral>) from library <work>.
 Elaborating entity <ov7670_controller> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <i3c2> (architecture <Behavioral>) with generics from library <work>.
-WARNING:HDLCompiler:634 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd" Line 42: Net <inputs[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd" Line 42: Net <inputs[15]> does not have a driver.
 
 Elaborating entity <frame_buffer> (architecture <SYN>) from library <work>.
 
@@ -291,30 +291,30 @@ Elaborating entity <ov7670_capture> (architecture <Behavioral>) from library <wo
 Elaborating entity <RGB> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <Address_Generator> (architecture <Behavioral>) from library <work>.
-WARNING:Xst:2972 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\sys_array.v" line 93. All outputs of instance <dff9> of block <Dff> are unconnected in block <sys_array>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\sys_array.v" line 93. All outputs of instance <dff9> of block <Dff> are unconnected in block <sys_array>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <top_level>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\top_level.vhd".
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\top_level.vhd" line 308: Output port <clkout> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\top_level.vhd" line 308: Output port <Nblank> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\top_level.vhd" line 308: Output port <Nsync> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\top_level.vhd".
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\top_level.vhd" line 308: Output port <clkout> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\top_level.vhd" line 308: Output port <Nblank> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\top_level.vhd" line 308: Output port <Nsync> of the instance <Inst_VGA> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <top_level> synthesized.
 
 Synthesizing Unit <vga_pll_zedboard>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ipcore_dir\vga_pll_zedboard.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ipcore_dir\vga_pll_zedboard.vhd".
     Summary:
 	no macro.
 Unit <vga_pll_zedboard> synthesized.
 
 Synthesizing Unit <sys_array>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\sys_array.v".
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\sys_array.v" line 93: Output port <q> of the instance <dff9> is unconnected or connected to loadless signal.
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\sys_array.v".
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\sys_array.v" line 93: Output port <q> of the instance <dff9> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 18-bit register for signal <tempOut1>.
     Found 18-bit register for signal <tempOut2>.
@@ -360,21 +360,21 @@ WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless sig
 Unit <sys_array> synthesized.
 
 Synthesizing Unit <Dff>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\Dff.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\Dff.v".
     Found 12-bit register for signal <q>.
     Summary:
 	inferred  12 D-type flip-flop(s).
 Unit <Dff> synthesized.
 
 Synthesizing Unit <nFIFO>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\nFIFO.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\nFIFO.v".
         fifosize = 636
     Summary:
 	no macro.
 Unit <nFIFO> synthesized.
 
 Synthesizing Unit <count_pixels_two>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\count_pixels2.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\count_pixels2.v".
     Found 19-bit comparator lessequal for signal <n0000> created at line 56
     Found 19-bit comparator lessequal for signal <n0002> created at line 56
     Summary:
@@ -383,7 +383,7 @@ Synthesizing Unit <count_pixels_two>.
 Unit <count_pixels_two> synthesized.
 
 Synthesizing Unit <VGA>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vga.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vga.vhd".
     Found 10-bit register for signal <VcntOut>.
     Found 10-bit register for signal <Hcnt>.
     Found 10-bit register for signal <Vcnt>.
@@ -410,7 +410,7 @@ Synthesizing Unit <VGA>.
 Unit <VGA> synthesized.
 
 Synthesizing Unit <segment>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\segment.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\segment.v".
         d4_q1 = 202
         d4_q2 = 227
         d4_q3 = 152
@@ -968,7 +968,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <quad11<13>>. Latches may be gene
 Unit <segment> synthesized.
 
 Synthesizing Unit <vga640x480>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\vgatest.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\vgatest.v".
         hpixels = 800
         vlines = 521
         hpulse = 96
@@ -1042,13 +1042,13 @@ Synthesizing Unit <vga640x480>.
 Unit <vga640x480> synthesized.
 
 Synthesizing Unit <mux>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\mux.v".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\mux.v".
     Summary:
 	inferred   5 Multiplexer(s).
 Unit <mux> synthesized.
 
 Synthesizing Unit <debounce>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\debounce.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\debounce.vhd".
     Found 24-bit register for signal <c>.
     Found 1-bit register for signal <o>.
     Found 24-bit adder for signal <c[23]_GND_429_o_add_1_OUT> created at line 1241.
@@ -1058,11 +1058,11 @@ Synthesizing Unit <debounce>.
 Unit <debounce> synthesized.
 
 Synthesizing Unit <ov7670_controller>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd".
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd" line 51: Output port <reg_addr> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd" line 51: Output port <reg_data> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd" line 51: Output port <reg_write> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_controller.vhd" line 51: Output port <error> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd".
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd" line 51: Output port <reg_addr> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd" line 51: Output port <reg_data> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd" line 51: Output port <reg_write> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_controller.vhd" line 51: Output port <error> of the instance <Inst_i3c2> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <inputs<15:1>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 9-bit register for signal <data>.
     Found 1-bit register for signal <sys_clk>.
@@ -1073,7 +1073,7 @@ WARNING:Xst:653 - Signal <inputs<15:1>> is used but never assigned. This sourcel
 Unit <ov7670_controller> synthesized.
 
 Synthesizing Unit <i3c2>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\i3c2.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\i3c2.vhd".
         clk_divide = "01111101"
     Found 1-bit register for signal <i2c_scl>.
     Found 1-bit register for signal <state[3]_clk_DFF_116_q>.
@@ -1117,13 +1117,13 @@ Synthesizing Unit <i3c2>.
 Unit <i3c2> synthesized.
 
 Synthesizing Unit <frame_buffer>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\frame_buffer.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\frame_buffer.vhd".
     Summary:
 	no macro.
 Unit <frame_buffer> synthesized.
 
 Synthesizing Unit <ov7670_capture>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\ov7670_capture.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\ov7670_capture.vhd".
     Found 2-bit register for signal <line>.
     Found 1-bit register for signal <href_hold>.
     Found 16-bit register for signal <d_latch>.
@@ -1156,13 +1156,13 @@ Synthesizing Unit <ov7670_capture>.
 Unit <ov7670_capture> synthesized.
 
 Synthesizing Unit <RGB>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\RGB.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\RGB.vhd".
     Summary:
 	inferred   3 Multiplexer(s).
 Unit <RGB> synthesized.
 
 Synthesizing Unit <Address_Generator>.
-    Related source file is "D:\Documents\GitHub\ec551NSA\ec551NSA-JoeBranch\segmentation_progress\address_Generator.vhd".
+    Related source file is "D:\Documents\GitHub\ec551NSA\Main Work Branch\ec551_fpga_licenseplate_reader\address_Generator.vhd".
     Found 19-bit register for signal <val>.
     Found 19-bit adder for signal <val[18]_GND_438_o_add_8_OUT> created at line 35.
     Found 19-bit comparator lessequal for signal <val[18]_GND_438_o_LessThan_2_o> created at line 26
@@ -27350,7 +27350,7 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                  | Buffer(FF name)                                                                                                                                                   | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[77].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
+Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_1212(Inst_frame_buffer/fb/XST_GND:G)                                                                                                                                                           | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[82].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram)    | 364   |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/cascadelatb_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTB)  | NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) | 2     |
 Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/cascadelata_tmp(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(Inst_frame_buffer/fb/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T)| 2     |
@@ -29058,12 +29058,12 @@ ov7670_pclk    |    2.062|    1.211|         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 143.00 secs
-Total CPU time to Xst completion: 143.28 secs
+Total REAL time to Xst completion: 184.00 secs
+Total CPU time to Xst completion: 183.95 secs
  
 --> 
 
-Total memory usage is 530580 kilobytes
+Total memory usage is 530516 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 26215 (   0 filtered)

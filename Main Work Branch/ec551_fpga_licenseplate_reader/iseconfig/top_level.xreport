@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-12-10T14:43:32</DateModified>
+  <DateModified>2016-12-12T21:23:01</DateModified>
   <ModuleName>top_level</ModuleName>
   <SummaryTimeStamp>2016-11-27T19:10:32</SummaryTimeStamp>
-  <SavedFilePath>D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/iseconfig/top_level.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/work\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/iseconfig/top_level.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/work\</ImplementationReportsDirectory>
   <DateInitialized>2013-05-25T21:23:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

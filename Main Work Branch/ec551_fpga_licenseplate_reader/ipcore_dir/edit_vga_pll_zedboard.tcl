@@ -22,7 +22,7 @@ proc findRtfPath { relativePath } {
 
 source [ findRtfPath "data/projnav/scripts/dpm_cgUtils.tcl" ]
 
-set result [ run_cg_edit "vga_pll_zedboard" xc6slx16-3csg324 VHDL ]
+set result [ run_cg_edit "vga_pll_zedboard" xc7z020-1clg484 VHDL ]
 
 if { $result == 0 } {
    puts "Core Generator edit command completed successfully."

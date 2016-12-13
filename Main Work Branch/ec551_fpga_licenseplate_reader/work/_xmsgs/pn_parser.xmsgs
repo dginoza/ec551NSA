@@ -8,7 +8,52 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/ec551NSA-JoeBranch/segmentation_progress/vgatest.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/Dff.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/RGB.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/address_Generator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/count_pixels2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/debounce.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/frame_buffer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/i3c2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/mux.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/nFIFO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/ov7670_capture.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/ov7670_controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/segment.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/sys_array.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/top_level.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/vga.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Documents/GitHub/ec551NSA/Main Work Branch/ec551_fpga_licenseplate_reader/vgatest.v&quot; into library work</arg>
 </msg>
 
 </messages>
